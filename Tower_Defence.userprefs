@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TowerManagement\TowerGUI.cs">
+    <Files>
+      <File FileName="Assets\Scripts\TowerManagement\TowerGUI.cs" Line="10" Column="2" />
+      <File FileName="Assets\Scripts\TowerManagement\TowerPlacement.cs" Line="7" Column="4" />
+      <File FileName="Assets\Scripts\TowerManagement\CheckPlaceable.cs" Line="8" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
