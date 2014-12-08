@@ -46,6 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\GameStageAttributes\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\GameStageAttributes\CustomCursor.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\TowerAttributes\MusketTower.cs" />
+     <Compile Include="Assets\Scripts\TowerAttributes\TowerClass.cs" />
      <Compile Include="Assets\Scripts\TowerManagement\CheckPlaceable.cs" />
      <Compile Include="Assets\Scripts\TowerManagement\TowerGUI.cs" />
      <Compile Include="Assets\Scripts\TowerManagement\TowerPlacement.cs" />
