@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MusketTower : TowerClass 
+public class MusketTower : TowerClass
 {
 
 	// Use this for initialization
@@ -11,8 +11,13 @@ public class MusketTower : TowerClass
 	}
 	
 	// Update is called once per frame
-	void Update () 
+	protected override void Update () 
 	{
-	
+		base.Update();
+	}
+
+	protected override void TargetEnemy()
+	{
+		base.TargetEnemy();
 	}
 }
