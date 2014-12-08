@@ -12,6 +12,7 @@ public class TowerGUI : MonoBehaviour
 	public Texture2D[]	textureArray;
 	private TowerPlacement towerPlacer;
 	private int colums = 2;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -36,6 +37,7 @@ public class TowerGUI : MonoBehaviour
 				towerPlacer.setTower(towerArray[i]);
 			}
 		}
+
 	}
 	
 }

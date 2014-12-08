@@ -10,18 +10,7 @@ using System.Collections.Generic;
 public class CheckPlaceable : MonoBehaviour 
 {
 	public List<Collider2D> colliders = new List<Collider2D>();
-
-	// Use this for initialization
-	void Start () 
-	{
-	
-	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-	
-	}
+	private bool selectedIsExisting;
 
 	void OnTriggerEnter2D(Collider2D col)
 	{
@@ -37,5 +26,17 @@ public class CheckPlaceable : MonoBehaviour
 		{
 			colliders.Remove(col);
 		}
+	}
+	void OnGUI()
+	{
+		if(selectedIsExisting)
+		{
+			GUI.Button(new Rect(Screen.width / 2, Screen.height / 1.25f, 100,60), name);
+		}
+	}
+	
+	public void setSelectExisting(bool setSE)
+	{
+		selectedIsExisting = setSE;
 	}
 }
