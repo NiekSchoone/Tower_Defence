@@ -19,6 +19,10 @@ public class TowerPlacement : MonoBehaviour
 	public LayerMask towerMask;
 
 	private CheckPlaceable selectedOld;
+
+	void Start()
+	{
+	}
 	
 	// Update is called once per frame
 	void Update () 
@@ -29,6 +33,7 @@ public class TowerPlacement : MonoBehaviour
 
 		if(draggingNewTower != null && !hasBeenPlaced)
 		{
+
 			draggingNewTower.position = new Vector3(towerPos.x,towerPos.y, 0);
 
 			newColor.a = 0.5f;
@@ -41,28 +46,39 @@ public class TowerPlacement : MonoBehaviour
 					newColor.a = 1;
 					sprtRenderer.color = newColor;
 					hasBeenPlaced = true;
+					draggingNewTower.GetComponent<TowerClass>().removeRadiusIndicator();
+
 				}
 			}
 		}else
 		{
-
 			if(Input.GetMouseButtonDown(0))
 			{
+				//define a "hit" for existing towers (towerPos)
 				RaycastHit2D hit = Physics2D.Raycast(towerPos, Vector2.zero);
 
+				//if you hit an existing tower
 				if(hit.collider != null)
 				{
+					//if you have a tower selected and click another tower, deselect the old tower, select the new tower
 					if(selectedOld != null)
 					{
+						selectedOld.GetComponent<TowerClass>().removeRadiusIndicator();
 						selectedOld.setSelectExisting(false);
 					}
-					Debug.Log (hit.collider.name);
+
+					//selecting a tower
 					hit.collider.gameObject.GetComponent<CheckPlaceable>().setSelectExisting(true);
 					selectedOld = hit.collider.gameObject.GetComponent<CheckPlaceable>();
+
+					hit.collider.GetComponent<TowerClass>().getRadiusIndicator();
+
 				}else
 				{
+					//if you have a tower selected and don't click another tower, deselect the old tower
 					if(selectedOld != null)
 					{
+						selectedOld.GetComponent<TowerClass>().removeRadiusIndicator();
 						selectedOld.setSelectExisting(false);
 					}
 				}
@@ -99,6 +115,8 @@ public class TowerPlacement : MonoBehaviour
 		hasBeenPlaced = false;
 		draggingNewTower = ((GameObject)Instantiate(sTower)).transform;
 		checkPlacable = draggingNewTower.GetComponent<CheckPlaceable>();
+
+		draggingNewTower.GetComponent<TowerClass>().getRadiusIndicator();
 
 		sprtRenderer = draggingNewTower.GetComponentInChildren<SpriteRenderer>();
 		newColor = sprtRenderer.color;

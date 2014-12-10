@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MusketTower : TowerClass
+public class GrenadierTower : TowerClass 
 {
 	protected override void Start()
 	{
-		radius = 1.4f;
+		radius = 1.2f;		
 		base.Start();
 	}
 
@@ -13,14 +13,9 @@ public class MusketTower : TowerClass
 	{
 		base.Update();
 	}
-
+	
 	protected override void TargetEnemy()
 	{
 		base.TargetEnemy();
-	}
-
-	protected override void AttackEnemy()
-	{
-		base.AttackEnemy();
 	}
 }
