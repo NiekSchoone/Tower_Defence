@@ -17,6 +17,12 @@ public class TowerClass : MonoBehaviour
 	[SerializeField]
 	protected GameObject ammo;
 
+	protected float fireRate = 1;
+
+	protected float coolDown = 1;
+
+	protected float projectileSpeed = 100;
+
 	[SerializeField]
 	protected Collider2D[] enemyTargetingArray;
 	//protected List<Collider2D> enemyTargetingArray = new List<Collider2D>();
@@ -32,10 +38,14 @@ public class TowerClass : MonoBehaviour
 	{
 		origin = new Vector2(transform.position.x, transform.position.y);
 
-		Debug.Log(origin);
 
 		enemyTargetingArray = Physics2D.OverlapCircleAll(origin, radius, EnemyLayer);
-		if(enemyTargetingArray.Length > 0)
+
+		if(enemyTargetingArray.Length == +1)
+		{
+			TargetEnemy();
+		}
+		if(enemyTargetingArray.Length == -1)
 		{
 			TargetEnemy();
 		}
@@ -43,9 +53,11 @@ public class TowerClass : MonoBehaviour
 		{
 			target = null;
 		}
-		AttackEnemy();
+		if(Time.time >= coolDown)
+		{
+			AttackEnemy();
+		}
 
-		Debug.Log(target);
 	}
 
 	public void getRadiusIndicator()
@@ -62,13 +74,17 @@ public class TowerClass : MonoBehaviour
 		target = enemyTargetingArray[0].gameObject;
 	}
 
-	protected virtual IEnumerator AttackEnemy()
+	protected virtual void AttackEnemy()
 	{
-		//if(target != null)
-		//{
-			//Vector2 direction = target - origin;
-			//direction.Normalize();
-			//GameObject projectile = (GameObject)Instantiate(ammo, transform.position, transform.rotation);
-		//}
+		if(target != null)
+		{
+			Vector2 myPos = new Vector2(this.transform.position.x, this.transform.position.y);
+			Vector2 targetPos = new Vector2(target.transform.position.x, target.transform.position.y);
+			Vector2 fireAt = targetPos - myPos;
+			Quaternion rotation = Quaternion.Euler( 0, 0, Mathf.Atan2 ( fireAt.y, fireAt.x ) * Mathf.Rad2Deg);
+			GameObject projectile = (GameObject)Instantiate(ammo, transform.position, rotation);
+			projectile.rigidbody2D.AddForce(fireAt * projectileSpeed);
+			coolDown = Time.time + fireRate;
+		}
 	}	
 }
