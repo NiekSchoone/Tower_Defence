@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -15,6 +18,9 @@
 /*.booproj
 
 #Unity3D Generated File On Crash Reports
+<<<<<<< HEAD
+sysinfo.txt
+=======
 sysinfo.txt
 =======
 [Ll]ibrary/
@@ -34,4 +40,5 @@ sysinfo.txt
 
 #Unity3D Generated File On Crash Reports
 sysinfo.txt
+>>>>>>> origin/master
 >>>>>>> origin/master
