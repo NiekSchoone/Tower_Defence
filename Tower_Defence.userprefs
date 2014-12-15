@@ -1,14 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameAttributes\CameraMovement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TowerAttributes\TowerClass.cs">
     <Files>
-      <File FileName="Assets\Scripts\TowerAttributes\TowerClass.cs" Line="84" Column="100" />
-      <File FileName="Assets\Scripts\TowerManagement\TowerPlacement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TowerAttributes\MusketTower.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TowerAttributes\CannonTower.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TowerAttributes\GrenadierTower.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy's\Enemy.cs" Line="45" Column="2" />
+      <File FileName="Assets\Scripts\TowerManagement\CheckPlaceable.cs" Line="19" Column="23" />
+      <File FileName="Assets\Scripts\TowerAttributes\TowerClass.cs" Line="65" Column="53" />
+      <File FileName="Assets\Scripts\TowerManagement\TowerPlacement.cs" Line="22" Column="1" />
+      <File FileName="Assets\Scripts\TowerAttributes\MusketTower.cs" Line="8" Column="17" />
+      <File FileName="Assets\Scripts\TowerAttributes\CannonTower.cs" Line="8" Column="15" />
+      <File FileName="Assets\Scripts\TowerAttributes\GrenadierTower.cs" Line="8" Column="14" />
       <File FileName="Assets\TestEnemyScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameAttributes\CameraMovement.cs" Line="25" Column="73" />
+      <File FileName="Assets\Scripts\GameAttributes\CameraMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy's\Waypoints.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

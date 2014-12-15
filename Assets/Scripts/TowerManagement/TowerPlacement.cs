@@ -20,9 +20,6 @@ public class TowerPlacement : MonoBehaviour
 
 	private CheckPlaceable selectedOld;
 
-	void Start()
-	{
-	}
 	
 	// Update is called once per frame
 	void Update () 

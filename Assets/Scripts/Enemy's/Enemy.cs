@@ -1,30 +1,45 @@
-﻿using UnityEngine;
+using UnityEngine;
+using System.Linq;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Enemy : MonoBehaviour {
+	//Making a list for all the waypoints.
+	public List<GameObject> waypoints = new List<GameObject>();
 
-	public Transform[] waypoints;
-
-	private float speed = 1;
-	private int currentWaypoint;
+	//private variable's.
+	private float _speed = 0.75f;
+	private int _currentWaypoint;
 
 
 	// Use this for initialization
 	void Start () {
-		currentWaypoint = 0;
+		_currentWaypoint = 0;
+
+		/*//Searching for Gameobject and putting in an array.
+		GameObject[] gObjects = (GameObject[])FindObjectsOfType(typeof(GameObject));
+
+		//sort all the gameobject in gObjects[] with the name "Waypoints" in it.
+		for (int i = 0; i <gObjects.Length; i++) {
+			if (gObjects[i].name.Contains ("Waypoint_"))
+			{
+				waypoints.Add(gObjects[i]);
+			}
+		}*/
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		//target = waypoints[currentWaypoint].position;
-		float step = speed * Time.deltaTime;
-		if(transform.position == waypoints[currentWaypoint].transform.position)
-		{
-			currentWaypoint++;
-		}
-		else
-		{
-			transform.position = Vector3.MoveTowards(transform.position, waypoints[currentWaypoint].position, step);
-		}
+
+		//speed for Enemey.
+		float step = _speed * Time.deltaTime;
+
+		//Let him know that he is at the waypoint.
+		if (Vector3.Distance(transform.position, waypoints[_currentWaypoint].transform.position) < Random.Range(-0.5f, 0.5f))
+			_currentWaypoint++;
+		//Let him move to the next waypoint.
+		transform.position = Vector3.MoveTowards(transform.position, waypoints[_currentWaypoint].transform.position, step);
+		//transform.LookAt(waypoints[_currentWaypoint].transform.position);
+
 	}
 }

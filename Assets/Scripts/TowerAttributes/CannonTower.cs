@@ -5,6 +5,7 @@ public class CannonTower : TowerClass
 {
 	protected override void Start()
 	{
+		fireRate = 2f;
 		radius = 1.6f;
 		base.Start();
 	}

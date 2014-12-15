@@ -5,6 +5,7 @@ public class GrenadierTower : TowerClass
 {
 	protected override void Start()
 	{
+		fireRate = 1f;
 		radius = 1.2f;		
 		base.Start();
 	}

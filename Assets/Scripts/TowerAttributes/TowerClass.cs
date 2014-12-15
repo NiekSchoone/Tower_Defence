@@ -1,7 +1,7 @@
-﻿using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 public class TowerClass : MonoBehaviour
 {
@@ -17,7 +17,7 @@ public class TowerClass : MonoBehaviour
 	[SerializeField]
 	protected GameObject ammo;
 
-	protected float fireRate = 1;
+	protected float fireRate;
 
 	protected float coolDown = 1;
 
@@ -36,16 +36,9 @@ public class TowerClass : MonoBehaviour
 	}
 	protected virtual void Update()
 	{
-		origin = new Vector2(transform.position.x, transform.position.y);
+		EnemiesEnter();
 
-
-		enemyTargetingArray = Physics2D.OverlapCircleAll(origin, radius, EnemyLayer);
-
-		if(enemyTargetingArray.Length == +1)
-		{
-			TargetEnemy();
-		}
-		if(enemyTargetingArray.Length == -1)
+		if(enemyTargetingArray.Length > 0)
 		{
 			TargetEnemy();
 		}
@@ -58,6 +51,20 @@ public class TowerClass : MonoBehaviour
 			AttackEnemy();
 		}
 
+
+	}
+
+	protected void EnemiesEnter()
+	{
+		origin = new Vector2(transform.position.x, transform.position.y);
+		enemyTargetingArray = Physics2D.OverlapCircleAll(origin, radius, EnemyLayer);
+		for (int i = 0; i < enemyTargetingArray.Length; i++) 
+		{
+			if(enemyTargetingArray[i].transform.position.x < enemyTargetingArray[0].transform.position.x)
+			{
+				enemyTargetingArray[0] = enemyTargetingArray[i];
+			}
+		}
 	}
 
 	public void getRadiusIndicator()
