@@ -30,6 +30,7 @@ public class Enemy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		Destroy ();
 
 		//speed for Enemey.
 		float step = _speed * Time.deltaTime;
@@ -39,7 +40,11 @@ public class Enemy : MonoBehaviour {
 			_currentWaypoint++;
 		//Let him move to the next waypoint.
 		transform.position = Vector3.MoveTowards(transform.position, waypoints[_currentWaypoint].transform.position, step);
-		transform.LookAt(waypoints[_currentWaypoint].transform.position);
+		//transform.LookAt(waypoints[_currentWaypoint].transform.position);
+	}
 
+	void Destroy(){
+		if(_currentWaypoint >= (waypoints.Count - 1))
+			Destroy(gameObject);
 	}
 }
