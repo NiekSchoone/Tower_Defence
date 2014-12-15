@@ -43,8 +43,8 @@ public class TowerPlacement : MonoBehaviour
 					newColor.a = 1;
 					sprtRenderer.color = newColor;
 					hasBeenPlaced = true;
-					draggingNewTower.GetComponent<TowerClass>().removeRadiusIndicator();
-
+					draggingNewTower.GetComponent<RadiusIndicator>().removeRadiusIndicator();
+					draggingNewTower.GetComponent<TowerClass>().enabled = true;
 				}
 			}
 		}else
@@ -60,7 +60,7 @@ public class TowerPlacement : MonoBehaviour
 					//if you have a tower selected and click another tower, deselect the old tower, select the new tower
 					if(selectedOld != null)
 					{
-						selectedOld.GetComponent<TowerClass>().removeRadiusIndicator();
+						selectedOld.GetComponent<RadiusIndicator>().removeRadiusIndicator();
 						selectedOld.setSelectExisting(false);
 					}
 
@@ -68,14 +68,14 @@ public class TowerPlacement : MonoBehaviour
 					hit.collider.gameObject.GetComponent<CheckPlaceable>().setSelectExisting(true);
 					selectedOld = hit.collider.gameObject.GetComponent<CheckPlaceable>();
 
-					hit.collider.GetComponent<TowerClass>().getRadiusIndicator();
+					hit.collider.GetComponent<RadiusIndicator>().getRadiusIndicator();
 
 				}else
 				{
 					//if you have a tower selected and don't click another tower, deselect the old tower
 					if(selectedOld != null)
 					{
-						selectedOld.GetComponent<TowerClass>().removeRadiusIndicator();
+						selectedOld.GetComponent<RadiusIndicator>().removeRadiusIndicator();
 						selectedOld.setSelectExisting(false);
 					}
 				}
@@ -113,7 +113,7 @@ public class TowerPlacement : MonoBehaviour
 		draggingNewTower = ((GameObject)Instantiate(sTower)).transform;
 		checkPlacable = draggingNewTower.GetComponent<CheckPlaceable>();
 
-		draggingNewTower.GetComponent<TowerClass>().getRadiusIndicator();
+		draggingNewTower.GetComponent<RadiusIndicator>().getRadiusIndicator();
 
 		sprtRenderer = draggingNewTower.GetComponentInChildren<SpriteRenderer>();
 		newColor = sprtRenderer.color;

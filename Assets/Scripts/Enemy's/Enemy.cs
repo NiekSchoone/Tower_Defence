@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour {
 	public List<GameObject> waypoints = new List<GameObject>();
 
 	//private variable's.
-	private float _speed = 0.75f;
+	private float _speed = 0.5f;
 	private int _currentWaypoint;
 
 
