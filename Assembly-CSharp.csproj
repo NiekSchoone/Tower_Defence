@@ -56,8 +56,9 @@
      <Compile Include="Assets\Scripts\TowerManagement\CheckPlaceable.cs" />
      <Compile Include="Assets\Scripts\TowerManagement\TowerGUI.cs" />
      <Compile Include="Assets\Scripts\TowerManagement\TowerPlacement.cs" />
-     <Compile Include="Assets\Scripts\WaveSystem\LevelData.cs" />
-     <Compile Include="Assets\Scripts\WaveSystem\MobWave.cs" />
+     <Compile Include="Assets\Scripts\WaveSystem\WaveSystemTest01\LevelData.cs" />
+     <Compile Include="Assets\Scripts\WaveSystem\WaveSystemTest01\MobWave.cs" />
+     <Compile Include="Assets\Scripts\WaveSystem\WaveSystemTest02\WaveTest02.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
