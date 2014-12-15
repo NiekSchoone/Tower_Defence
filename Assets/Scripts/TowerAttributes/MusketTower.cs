@@ -1,18 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MusketTower : TowerClass 
+public class MusketTower : TowerClass
 {
-
-	// Use this for initialization
-	void Start () 
+	protected override void Start()
 	{
-	
+		fireRate = 0.5f;
+		radius = 1.4f;
+		base.Start();
 	}
-	
-	// Update is called once per frame
-	void Update () 
+
+	protected override void Update () 
 	{
-	
+		base.Update();
+	}
+
+	protected override void TargetEnemy()
+	{
+		base.TargetEnemy();
+	}
+
+	protected override void AttackEnemy()
+	{
+		base.AttackEnemy();
 	}
 }
