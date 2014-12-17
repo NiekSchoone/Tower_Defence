@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using UnityEditor;
 using UnityEditorInternal;
 
@@ -36,4 +36,4 @@ public class LevelDataEditor : Editor{
 		list.DoLayoutList();
 		serializedObject.ApplyModifiedProperties ();
 	}
-}
+}*/
