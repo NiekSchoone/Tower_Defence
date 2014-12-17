@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\TowerAttributes\CannonTower.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\GrenadierTower.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\MusketTower.cs" />
+     <Compile Include="Assets\Scripts\TowerAttributes\RadiusIndicator.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\TowerClass.cs" />
      <Compile Include="Assets\Scripts\TowerManagement\CheckPlaceable.cs" />
      <Compile Include="Assets\Scripts\TowerManagement\TowerGUI.cs" />

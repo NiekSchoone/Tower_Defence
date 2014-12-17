@@ -3,7 +3,8 @@ using UnityEditor;
 using UnityEditorInternal;
 
 [CustomEditor(typeof(LevelData))]
-public class LevelDataEditor : Editor{
+public class LevelDataEditor : Editor
+{
 	private ReorderableList list;
 
 	private void OnEnable(){
