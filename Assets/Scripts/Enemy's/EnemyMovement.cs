@@ -3,12 +3,12 @@ using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 
-public class Enemy : MonoBehaviour {
+public class EnemyMovement : MonoBehaviour {
 	//Making a list for all the waypoints.
 	public List<GameObject> waypoints = new List<GameObject>();
 
 	//private variable's.
-	private float _speed = 0.5f;
+	private float _speed = 0.75f;
 	private int _currentWaypoint;
 
 	
@@ -36,12 +36,11 @@ public class Enemy : MonoBehaviour {
 			Destroy ();
 		}
 
-
 		//speed for Enemey.
 		float step = _speed * Time.deltaTime;
 
 		//Let him know that he is at the waypoint.
-		if (Vector3.Distance(transform.position, waypoints[_currentWaypoint].transform.position) < Random.Range(-0.5f, 0.5f))
+		if (Vector3.Distance(transform.position, waypoints[_currentWaypoint].transform.position) < Random.Range(-0.1f, 0.1f))
 			_currentWaypoint++;
 		//Let him move to the next waypoint.
 		transform.position = Vector3.MoveTowards(transform.position, waypoints[_currentWaypoint].transform.position, step);
@@ -53,4 +52,5 @@ public class Enemy : MonoBehaviour {
 		Destroy(gameObject);
 		//Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin += 2;
 	}
+	
 }

@@ -37,4 +37,5 @@ public class LevelDataEditor : Editor
 		list.DoLayoutList();
 		serializedObject.ApplyModifiedProperties ();
 	}
+<<<<<<< HEAD
 }*/
