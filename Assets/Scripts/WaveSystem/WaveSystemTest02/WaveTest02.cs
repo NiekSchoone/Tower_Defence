@@ -22,7 +22,7 @@ public class WaveTest02 : MonoBehaviour {
 				            SpawnPoints.transform.rotation);
 				_WaveCount++;
 				NextWave = true;
-				Debug.Log(_AmountWave);
+				//Debug.Log(_AmountWave);
 				yield return new WaitForSeconds (1);
 		}
 	}
