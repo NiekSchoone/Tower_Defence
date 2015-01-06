@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour {
 	private float _speed = 0.5f;
 	private int _currentWaypoint;
 
-
+	
 	// Use this for initialization
 	void Start () {
 		_currentWaypoint = 0;
@@ -27,9 +27,15 @@ public class Enemy : MonoBehaviour {
 			}
 		}*/
 	}
-	
+
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
+		if(_currentWaypoint >= (waypoints.Count))
+		{
+			Destroy ();
+		}
+
 
 		//speed for Enemey.
 		float step = _speed * Time.deltaTime;
@@ -40,6 +46,11 @@ public class Enemy : MonoBehaviour {
 		//Let him move to the next waypoint.
 		transform.position = Vector3.MoveTowards(transform.position, waypoints[_currentWaypoint].transform.position, step);
 		//transform.LookAt(waypoints[_currentWaypoint].transform.position);
+	}
 
+	void Destroy()
+	{
+		Destroy(gameObject);
+		//Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin += 2;
 	}
 }

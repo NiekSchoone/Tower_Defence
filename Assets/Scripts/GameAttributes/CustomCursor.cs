@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+* ...
+* @author Niek Schoone
+**/
+
 public class CustomCursor : MonoBehaviour 
 {
 	public Texture2D cursorTexture;

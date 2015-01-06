@@ -1,14 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+* ...
+* @author Niek Schoone
+**/
+
 public class MusketTower : TowerClass
 {
 
-	protected override void Start()
+	protected override void Awake()
 	{
+		towerPrice = 100;
 		fireRate = 0.5f;
 		radius = 1.4f;
-		base.Start();
+		base.Awake();
 	}
 
 	protected override void Update () 
