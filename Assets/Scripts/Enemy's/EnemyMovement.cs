@@ -3,16 +3,12 @@ using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 
-public class Enemy : MonoBehaviour {
+public class EnemyMovement : MonoBehaviour {
 	//Making a list for all the waypoints.
 	public List<GameObject> waypoints = new List<GameObject>();
 
 	//private variable's.
-<<<<<<< HEAD:Assets/Scripts/Enemy's/EnemyMovement.cs
 	private float _speed = 0.75f;
-=======
-	private float _speed = 0.5f;
->>>>>>> origin/master:Assets/Scripts/Enemy's/Enemy.cs
 	private int _currentWaypoint;
 
 
@@ -34,10 +30,7 @@ public class Enemy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-<<<<<<< HEAD:Assets/Scripts/Enemy's/EnemyMovement.cs
 		Destroy ();
-=======
->>>>>>> origin/master:Assets/Scripts/Enemy's/Enemy.cs
 
 		//speed for Enemey.
 		float step = _speed * Time.deltaTime;
@@ -48,14 +41,10 @@ public class Enemy : MonoBehaviour {
 		//Let him move to the next waypoint.
 		transform.position = Vector3.MoveTowards(transform.position, waypoints[_currentWaypoint].transform.position, step);
 		//transform.LookAt(waypoints[_currentWaypoint].transform.position);
-<<<<<<< HEAD:Assets/Scripts/Enemy's/EnemyMovement.cs
 	}
 
 	void Destroy(){
 		if(_currentWaypoint >= (waypoints.Count - 1))
 			Destroy(gameObject);
-=======
-
->>>>>>> origin/master:Assets/Scripts/Enemy's/Enemy.cs
 	}
 }
