@@ -52,19 +52,21 @@
      <Compile Include="Assets\Scripts\Enemy&apos;s\Waypoints.cs" />
      <Compile Include="Assets\Scripts\GameAttributes\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\GameAttributes\CustomCursor.cs" />
-     <Compile Include="Assets\Scripts\TestScripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\GameManagers\GoldScript.cs" />
+     <Compile Include="Assets\Scripts\ProjectileAttributes\CannonBall.cs" />
+     <Compile Include="Assets\Scripts\ProjectileAttributes\MusketShot.cs" />
+     <Compile Include="Assets\Scripts\ProjectileAttributes\ProjectileClass.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\CannonTower.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\GrenadierTower.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\MusketTower.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\RadiusIndicator.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\TowerClass.cs" />
-     <Compile Include="Assets\Scripts\TowerManagement\CheckPlaceable.cs" />
-     <Compile Include="Assets\Scripts\TowerManagement\TowerGUI.cs" />
-     <Compile Include="Assets\Scripts\TowerManagement\TowerPlacement.cs" />
+     <Compile Include="Assets\Scripts\TowerManagers\CheckPlaceable.cs" />
+     <Compile Include="Assets\Scripts\TowerManagers\TowerGUI.cs" />
+     <Compile Include="Assets\Scripts\TowerManagers\TowerPlacement.cs" />
      <Compile Include="Assets\Scripts\WaveSystem\WaveSystemTest01\LevelData.cs" />
      <Compile Include="Assets\Scripts\WaveSystem\WaveSystemTest01\MobWave.cs" />
      <Compile Include="Assets\Scripts\WaveSystem\WaveSystemTest02\WaveTest02.cs" />
-     <Compile Include="Assets\TestEnemyScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

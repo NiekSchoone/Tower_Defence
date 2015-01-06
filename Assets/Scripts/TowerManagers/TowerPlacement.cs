@@ -20,7 +20,10 @@ public class TowerPlacement : MonoBehaviour
 
 	private CheckPlaceable selectedOld;
 
-	
+	void Start()
+	{
+	}
+
 	// Update is called once per frame
 	void Update () 
 	{
@@ -84,7 +87,7 @@ public class TowerPlacement : MonoBehaviour
 
 		if(hasBeenPlaced)
 		{
-			hoverOffColliderColor();
+			HoverOffColliderColor();
 		}
 
 		if(checkPlacable != null)
@@ -97,17 +100,17 @@ public class TowerPlacement : MonoBehaviour
 	{
 		if(checkPlacable.colliders.Count > 0)
 		{
-			hoverOnColliderColor();
+			HoverOnColliderColor();
 			return false;
 		}else
 		{
-			hoverOffColliderColor();
+			HoverOffColliderColor();
 		}
 		return true;
 	}
 
 
-	public void setTower(GameObject sTower)
+	public void SetTower(GameObject sTower)
 	{
 		hasBeenPlaced = false;
 		draggingNewTower = ((GameObject)Instantiate(sTower)).transform;
@@ -119,14 +122,14 @@ public class TowerPlacement : MonoBehaviour
 		newColor = sprtRenderer.color;
 	}
 
-	void hoverOnColliderColor()
+	void HoverOnColliderColor()
 	{
 		newColor.r = 200;
 		newColor.g = 0;
 		newColor.b = 0;
 		sprtRenderer.color = newColor;
 	}
-	void hoverOffColliderColor()
+	void HoverOffColliderColor()
 	{
 		newColor.r = 1;
 		newColor.g = 1;

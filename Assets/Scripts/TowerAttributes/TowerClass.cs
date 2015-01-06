@@ -30,11 +30,13 @@ public class TowerClass : MonoBehaviour
 
 	protected Vector2 origin;
 
-	protected virtual void Start()
+	public int towerPrice;
+
+	protected virtual void Awake()
 	{
 		this.enabled = false;
 	}
-
+	
 	protected virtual void Update()
 	{
 		EnemiesEnter();
