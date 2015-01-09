@@ -9,20 +9,21 @@ using System.Collections;
 public class TowerPlacement : MonoBehaviour 
 {
 	private CheckPlaceable checkPlacable;
-	private Transform draggingNewTower;
-	private bool hasBeenPlaced;
-	private bool canInstantiateNewTower;
+	private CheckPlaceable selectedOld;
+	private TowerGUI getCurrentTower;
 
+	private Transform draggingNewTower;
+
+	public  bool onBackgroundClick;
+	private	bool hasBeenPlaced;
+	private bool canInstantiateNewTower;
+	
 	private SpriteRenderer sprtRenderer;
 	private Color newColor;
 
 	public LayerMask towerMask;
 
-	private CheckPlaceable selectedOld;
-
-	void Start()
-	{
-	}
+	public Texture2D trashCanTex;
 
 	// Update is called once per frame
 	void Update () 
@@ -33,6 +34,7 @@ public class TowerPlacement : MonoBehaviour
 
 		if(draggingNewTower != null && !hasBeenPlaced)
 		{
+			sprtRenderer.sortingOrder = 12;
 
 			draggingNewTower.position = new Vector3(towerPos.x,towerPos.y, 0);
 
@@ -43,6 +45,8 @@ public class TowerPlacement : MonoBehaviour
 			{
 				if(notColliding())
 				{
+					sprtRenderer.sortingOrder = 4;			
+
 					newColor.a = 1;
 					sprtRenderer.color = newColor;
 					hasBeenPlaced = true;
@@ -55,10 +59,11 @@ public class TowerPlacement : MonoBehaviour
 			if(Input.GetMouseButtonDown(0))
 			{
 				//define a "hit" for existing towers (towerPos)
-				RaycastHit2D hit = Physics2D.Raycast(towerPos, Vector2.zero);
+				RaycastHit2D hitTower = Physics2D.Raycast(towerPos, Vector2.zero);
+
 
 				//if you hit an existing tower
-				if(hit.collider != null)
+				if(hitTower.collider != null && hitTower.collider.gameObject.tag == "Tower")
 				{
 					//if you have a tower selected and click another tower, deselect the old tower, select the new tower
 					if(selectedOld != null)
@@ -68,16 +73,21 @@ public class TowerPlacement : MonoBehaviour
 					}
 
 					//selecting a tower
-					hit.collider.gameObject.GetComponent<CheckPlaceable>().setSelectExisting(true);
-					selectedOld = hit.collider.gameObject.GetComponent<CheckPlaceable>();
 
-					hit.collider.GetComponent<RadiusIndicator>().getRadiusIndicator();
+					//upgradeButton.SetActive(true);
+					hitTower.collider.gameObject.GetComponent<CheckPlaceable>().setSelectExisting(true);
+					selectedOld = hitTower.collider.gameObject.GetComponent<CheckPlaceable>();
+
+					hitTower.collider.GetComponent<RadiusIndicator>().getRadiusIndicator();
 
 				}else
 				{
+					//upgradeButton.SetActive(false);
+
 					//if you have a tower selected and don't click another tower, deselect the old tower
-					if(selectedOld != null)
+					if(selectedOld != null && onBackgroundClick == true)
 					{
+						//upgradeButton.SetActive(false);
 						selectedOld.GetComponent<RadiusIndicator>().removeRadiusIndicator();
 						selectedOld.setSelectExisting(false);
 					}
@@ -109,6 +119,20 @@ public class TowerPlacement : MonoBehaviour
 		return true;
 	}
 
+	void OnGUI()
+	{
+		GUI.enabled = false;
+		if(draggingNewTower && hasBeenPlaced != true)
+		{
+			GUI.enabled = true;
+		}
+
+		if(GUI.Button(new Rect(Screen.width / 1.16f, Screen.height / 1.15f, 80, 60), trashCanTex))
+		{
+			Destroy(draggingNewTower.gameObject);
+
+		}
+	}
 
 	public void SetTower(GameObject sTower)
 	{

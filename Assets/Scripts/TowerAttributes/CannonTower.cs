@@ -25,4 +25,9 @@ public class CannonTower : TowerClass
 	{
 		base.TargetEnemy();
 	}
+
+	protected override void AttackEnemy()
+	{
+		base.AttackEnemy();
+	}
 }

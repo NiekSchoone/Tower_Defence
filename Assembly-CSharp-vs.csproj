@@ -52,7 +52,9 @@
      <Compile Include="Assets\Scripts\Enemy&apos;s\Waypoints.cs" />
      <Compile Include="Assets\Scripts\GameAttributes\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\GameAttributes\CustomCursor.cs" />
+     <Compile Include="Assets\Scripts\GameManagers\CheckClickOnBackground.cs" />
      <Compile Include="Assets\Scripts\GameManagers\GoldScript.cs" />
+     <Compile Include="Assets\Scripts\GameManagers\UpgradeScript.cs" />
      <Compile Include="Assets\Scripts\ProjectileAttributes\CannonBall.cs" />
      <Compile Include="Assets\Scripts\ProjectileAttributes\MusketShot.cs" />
      <Compile Include="Assets\Scripts\ProjectileAttributes\ProjectileClass.cs" />

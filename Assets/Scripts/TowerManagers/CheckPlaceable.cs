@@ -9,12 +9,19 @@ using System.Collections.Generic;
 
 public class CheckPlaceable : MonoBehaviour 
 {
+	public Texture2D upgradeTexture;
+	
 	public List<Collider2D> colliders = new List<Collider2D>();
+
 	private bool selectedIsExisting;
+
+	void Start()
+	{
+	}
 
 	void OnTriggerEnter2D(Collider2D col)
 	{
-		if(col.tag == "Tower" || col.tag == "Path")
+		if(col.tag == "Tower" || col.tag == "Path" || col.tag == "Border")
 		{
 			colliders.Add(col);
 		}
@@ -22,7 +29,7 @@ public class CheckPlaceable : MonoBehaviour
 
 	void OnTriggerExit2D(Collider2D col)
 	{
-		if(col.tag == "Tower" || col.tag == "Path")
+		if(col.tag == "Tower" || col.tag == "Path" || col.tag == "Border")
 		{
 			colliders.Remove(col);
 		}
@@ -31,7 +38,10 @@ public class CheckPlaceable : MonoBehaviour
 	{
 		if(selectedIsExisting)
 		{
-			GUI.Button(new Rect(Screen.width / 2, Screen.height / 1.25f, 100,60), name);
+			if(GUI.Button(new Rect(Screen.width / 2, Screen.height / 1.15f, 40,40), upgradeTexture))
+			{
+
+			}
 		}
 	}
 	

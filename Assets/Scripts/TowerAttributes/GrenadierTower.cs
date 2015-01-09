@@ -25,4 +25,9 @@ public class GrenadierTower : TowerClass
 	{
 		base.TargetEnemy();
 	}
+
+	protected override void AttackEnemy()
+	{
+		base.AttackEnemy();
+	}
 }
