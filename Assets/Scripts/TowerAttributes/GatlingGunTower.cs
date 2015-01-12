@@ -6,12 +6,13 @@ using System.Collections;
 * @author Niek Schoone
 **/
 
-public class GrenadierTower : TowerClass 
+public class GatlingGunTower : TowerClass 
 {
 	protected override void Awake()
 	{
 		towerPrice = 200;
-		fireRate = 1f;
+		fireRate = 0.3f;
+		projectileSpeed = 200;
 		radius = 1.2f;		
 		base.Awake();
 	}

@@ -12,6 +12,7 @@ public class CannonTower : TowerClass
 	{
 		towerPrice = 300;
 		fireRate = 2f;
+		projectileSpeed = 120;
 		radius = 1.6f;
 		base.Awake();
 	}
