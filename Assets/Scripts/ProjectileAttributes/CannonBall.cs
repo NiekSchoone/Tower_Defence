@@ -11,7 +11,7 @@ public class CannonBall : ProjectileClass
 
 	protected override void Start () 
 	{
-		damageDealt = 10;
+		damage = 20;
 	}
 	
 	protected override void Update () 

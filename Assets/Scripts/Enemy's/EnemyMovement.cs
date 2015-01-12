@@ -15,20 +15,12 @@ public class EnemyMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		_currentWaypoint = 0;
-
-		/*//Searching for Gameobject and putting in an array.
-		GameObject[] gObjects = (GameObject[])FindObjectsOfType(typeof(GameObject));
-
-		//sort all the gameobject in gObjects[] with the name "Waypoints" in it.
-		for (int i = 0; i <gObjects.Length; i++) {
-			if (gObjects[i].name.Contains ("Waypoint_"))
-			{
-				waypoints.Add(gObjects[i]);
-			}
-		}*/
 	}
 
+<<<<<<< HEAD
 	// Update is called once per frame
+=======
+>>>>>>> origin/master
 	void Update () 
 	{
 		if(_currentWaypoint >= (waypoints.Count))
@@ -46,7 +38,10 @@ public class EnemyMovement : MonoBehaviour {
 		transform.position = Vector3.MoveTowards(transform.position, waypoints[_currentWaypoint].transform.position, step);
 		//transform.LookAt(waypoints[_currentWaypoint].transform.position);
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 	void Destroy(){
 		if(_currentWaypoint >= (waypoints.Count - 1))
 			Destroy(gameObject);
