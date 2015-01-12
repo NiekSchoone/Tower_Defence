@@ -13,6 +13,8 @@ public class TowerGUI : MonoBehaviour
 	private TowerPlacement towerPlacer;
 	private GoldScript gold;
 	public TowerClass currentTower;
+	public TowerClass priceCheck;
+
 
 	private int colums = 2;
 
@@ -27,18 +29,23 @@ public class TowerGUI : MonoBehaviour
 	{
 		for(int i = 0; i < towerArray.Length; i++)
 		{
-			currentTower = towerArray[i].GetComponent<TowerClass>();
+
+			priceCheck = towerArray[i].GetComponent<TowerClass>();
 
 			float calcX = (Screen.width/1.185f) + i%colums*(Screen.width/12.5f);
 			float calcY = (Screen.height/ 15) + Mathf.Floor(i / colums) * (Screen.height / 9);
 
 			//if the player does not have enough gold, the buttons will be dissabled
-			if(gold.playerOwnedCoin <= currentTower.towerPrice)
+			if(gold.playerOwnedCoin <= priceCheck.towerPrice)
 			{
 				GUI.enabled = false;
 			}
 			if(GUI.Button(new Rect(calcX, calcY, 40, 40) ,textureArray[i]))
 			{
+				currentTower = towerArray[i].GetComponent<TowerClass>();
+
+				Debug.Log(currentTower);
+
 				gold.playerOwnedCoin -= currentTower.towerPrice;
 				towerPlacer.SetTower(towerArray[i]);
 				Debug.Log(currentTower.towerPrice);

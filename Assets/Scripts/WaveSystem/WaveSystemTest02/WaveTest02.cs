@@ -26,7 +26,6 @@ public class WaveTest02 : MonoBehaviour {
 		yield return new WaitForSeconds (_seconds);
 		Instantiate(Enemy01, SpawnPoints.transform.position,
 		            SpawnPoints.transform.rotation);
-<<<<<<< HEAD
 	}
 	IEnumerator SpawnEnemy(){
 			for(int i = 0; i < _AmountWave; i++)
@@ -38,8 +37,6 @@ public class WaveTest02 : MonoBehaviour {
 				//Debug.Log(_AmountWave);
 				yield return new WaitForSeconds (1);
 		}
-=======
->>>>>>> origin/master
 	}
 
 	void Wave(){

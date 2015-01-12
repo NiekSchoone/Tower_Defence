@@ -130,7 +130,7 @@ public class TowerPlacement : MonoBehaviour
 		if(GUI.Button(new Rect(Screen.width / 1.16f, Screen.height / 1.15f, 80, 60), trashCanTex))
 		{
 			Destroy(draggingNewTower.gameObject);
-
+			Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin += Camera.main.gameObject.GetComponent<TowerGUI>().currentTower.towerPrice;
 		}
 	}
 

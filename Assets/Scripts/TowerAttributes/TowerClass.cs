@@ -23,7 +23,6 @@ public class TowerClass : MonoBehaviour
 
 	protected float coolDown = 1;
 
-
 	protected float projectileSpeed;
 
 	[SerializeField]
@@ -31,11 +30,22 @@ public class TowerClass : MonoBehaviour
 
 	protected Vector2 origin;
 
+	[SerializeField]
+	protected Sprite[] upgradeSprites;
+
+	protected SpriteRenderer towerSpriteRenderer;
+
 	public int towerPrice;
 
 	protected virtual void Awake()
 	{
 		this.enabled = false;
+		towerSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
+	}
+
+	protected virtual void ChangeSprite()
+	{
+		towerSpriteRenderer.sprite = upgradeSprites[];
 	}
 	
 	protected virtual void Update()
@@ -58,6 +68,8 @@ public class TowerClass : MonoBehaviour
 
 	protected void EnemiesEnter()
 	{
+		ChangeSprite();
+
 		origin = new Vector2(transform.position.x, transform.position.y);
 		enemyTargetingArray = Physics2D.OverlapCircleAll(origin, radius, EnemyLayer);
 		for (int i = 0; i < enemyTargetingArray.Length; i++) 
@@ -78,6 +90,7 @@ public class TowerClass : MonoBehaviour
 	{
 		if(target != null)
 		{
+
 			Vector2 myPos = new Vector2(this.transform.position.x, this.transform.position.y);
 			Vector2 targetPos = new Vector2(target.transform.position.x, target.transform.position.y);
 			Vector2 fireAt = targetPos - myPos;

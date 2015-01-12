@@ -60,7 +60,6 @@
      <Compile Include="Assets\Scripts\ProjectileAttributes\CannonBall.cs" />
      <Compile Include="Assets\Scripts\ProjectileAttributes\MusketShot.cs" />
      <Compile Include="Assets\Scripts\ProjectileAttributes\ProjectileClass.cs" />
-     <Compile Include="Assets\Scripts\TestScripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\CannonTower.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\GatlingGunTower.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\MusketTower.cs" />
