@@ -1,20 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\WaveSystem\WaveSystemTest02\WaveTest02.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemy's\Damage.cs">
     <Files>
-      <File FileName="Assets\Scripts\WaveSystem\WaveSystemTest02\WaveTest02.cs" Line="38" Column="27" />
-      <File FileName="Assets\Scripts\Enemy's\Enemies.cs" Line="9" Column="3" />
-      <File FileName="Assets\Scripts\Enemy's\EnemyMovement.cs" Line="48" Column="24" />
-      <File FileName="Assets\Scripts\Enemy's\Damage.cs" Line="9" Column="24" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TowerAttributes\MusketTower.cs">
-    <Files>
-      <File FileName="Assets\Scripts\ProjectileAttributes\ProjectileClass.cs" Line="21" Column="2" />
-      <File FileName="Assets\Scripts\TowerAttributes\MusketTower.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TowerAttributes\CannonTower.cs" Line="4" Column="1" />
-      <File FileName="Assets\Scripts\TowerAttributes\GrenadierTower.cs" Line="1" Column="1" />
->>>>>>> origin/master
+      <File FileName="Assets\Scripts\WaveSystem\WaveSystemTest02\WaveTest02.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ProjectileAttributes\MusketShot.cs" Line="1" Column="2" />
+      <File FileName="Assets\Scripts\ProjectileAttributes\ProjectileClass.cs" Line="27" Column="4" />
+      <File FileName="Assets\Scripts\ProjectileAttributes\CannonBall.cs" Line="14" Column="15" />
+      <File FileName="Assets\Scripts\Enemy's\Enemies.cs" Line="29" Column="27" />
+      <File FileName="Assets\Scripts\Enemy's\Enemy_1.cs" Line="9" Column="23" />
+      <File FileName="Assets\Scripts\Enemy's\Enemy_2.cs" Line="9" Column="23" />
+      <File FileName="Assets\Scripts\Enemy's\EnemyMovement.cs" Line="39" Column="24" />
+      <File FileName="Assets\Scripts\Enemy's\Damage.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

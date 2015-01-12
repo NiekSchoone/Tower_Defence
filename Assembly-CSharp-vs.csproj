@@ -49,6 +49,8 @@
      <Compile Include="Assets\Scripts\Enemy&apos;s\Damage.cs" />
      <Compile Include="Assets\Scripts\Enemy&apos;s\Enemies.cs" />
      <Compile Include="Assets\Scripts\Enemy&apos;s\EnemyMovement.cs" />
+     <Compile Include="Assets\Scripts\Enemy&apos;s\Enemy_1.cs" />
+     <Compile Include="Assets\Scripts\Enemy&apos;s\Enemy_2.cs" />
      <Compile Include="Assets\Scripts\Enemy&apos;s\Waypoints.cs" />
      <Compile Include="Assets\Scripts\GameAttributes\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\GameAttributes\CustomCursor.cs" />
@@ -56,6 +58,7 @@
      <Compile Include="Assets\Scripts\ProjectileAttributes\CannonBall.cs" />
      <Compile Include="Assets\Scripts\ProjectileAttributes\MusketShot.cs" />
      <Compile Include="Assets\Scripts\ProjectileAttributes\ProjectileClass.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\CannonTower.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\GrenadierTower.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\MusketTower.cs" />
