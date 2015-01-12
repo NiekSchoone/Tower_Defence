@@ -29,12 +29,17 @@ public class EnemyMovement : MonoBehaviour {
 	}
 
 	// Update is called once per frame
+<<<<<<< HEAD
+	void Update () {
+		Destroy ();
+=======
 	void Update () 
 	{
 		if(_currentWaypoint >= (waypoints.Count))
 		{
 			Destroy ();
 		}
+>>>>>>> origin/master
 
 		//speed for Enemey.
 		float step = _speed * Time.deltaTime;
@@ -47,10 +52,16 @@ public class EnemyMovement : MonoBehaviour {
 		//transform.LookAt(waypoints[_currentWaypoint].transform.position);
 	}
 
+<<<<<<< HEAD
+	void Destroy(){
+		if(_currentWaypoint >= (waypoints.Count - 1))
+			Destroy(gameObject);
+=======
 	void Destroy()
 	{
 		Destroy(gameObject);
 		//Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin += 2;
+>>>>>>> origin/master
 	}
 	
 }
