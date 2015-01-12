@@ -23,7 +23,8 @@ public class TowerClass : MonoBehaviour
 
 	protected float coolDown = 1;
 
-	protected float projectileSpeed = 100;
+
+	protected float projectileSpeed;
 
 	[SerializeField]
 	protected Collider2D[] enemyTargetingArray;

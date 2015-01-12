@@ -13,6 +13,7 @@ public class MusketTower : TowerClass
 	{
 		towerPrice = 100;
 		fireRate = 0.5f;
+		projectileSpeed = 200;
 		radius = 1.4f;
 		base.Awake();
 	}

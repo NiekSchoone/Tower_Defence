@@ -54,13 +54,15 @@
      <Compile Include="Assets\Scripts\Enemy&apos;s\Waypoints.cs" />
      <Compile Include="Assets\Scripts\GameAttributes\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\GameAttributes\CustomCursor.cs" />
+     <Compile Include="Assets\Scripts\GameManagers\CheckClickOnBackground.cs" />
      <Compile Include="Assets\Scripts\GameManagers\GoldScript.cs" />
+     <Compile Include="Assets\Scripts\GameManagers\UpgradeScript.cs" />
      <Compile Include="Assets\Scripts\ProjectileAttributes\CannonBall.cs" />
      <Compile Include="Assets\Scripts\ProjectileAttributes\MusketShot.cs" />
      <Compile Include="Assets\Scripts\ProjectileAttributes\ProjectileClass.cs" />
      <Compile Include="Assets\Scripts\TestScripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\CannonTower.cs" />
-     <Compile Include="Assets\Scripts\TowerAttributes\GrenadierTower.cs" />
+     <Compile Include="Assets\Scripts\TowerAttributes\GatlingGunTower.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\MusketTower.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\RadiusIndicator.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\TowerClass.cs" />

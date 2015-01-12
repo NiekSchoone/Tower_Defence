@@ -12,6 +12,7 @@ public class CannonTower : TowerClass
 	{
 		towerPrice = 300;
 		fireRate = 2f;
+		projectileSpeed = 120;
 		radius = 1.6f;
 		base.Awake();
 	}
@@ -24,5 +25,10 @@ public class CannonTower : TowerClass
 	protected override void TargetEnemy()
 	{
 		base.TargetEnemy();
+	}
+
+	protected override void AttackEnemy()
+	{
+		base.AttackEnemy();
 	}
 }
