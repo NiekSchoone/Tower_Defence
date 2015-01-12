@@ -1,36 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TowerAttributes\TowerClass.cs">
-    <Files>
-      <File FileName="Assets\Scripts\ProjectileAttributes\MusketShot.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TowerManagers\TowerGUI.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TowerAttributes\MusketTower.cs" Line="7" Column="4" />
-      <File FileName="Assets\Scripts\TowerAttributes\CannonTower.cs" Line="14" Column="17" />
-      <File FileName="Assets\Scripts\GameManagers\GoldScript.cs" Line="14" Column="1" />
-      <File FileName="Assets\Scripts\TowerAttributes\TowerClass.cs" Line="26" Column="2" />
-      <File FileName="Assets\Scripts\TowerManagers\CheckPlaceable.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameManagers\UpgradeScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TowerAttributes\RadiusIndicator.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TowerManagers\TowerPlacement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TowerAttributes\GatlingGunTower.cs" Line="17" Column="16" />
-=======
-<<<<<<< HEAD
+  <MonoDevelop.Ide.Workspace />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\WaveSystem\WaveSystemTest02\WaveTest02.cs">
     <Files>
-      <File FileName="Assets\Scripts\WaveSystem\WaveSystemTest02\WaveTest02.cs" Line="38" Column="27" />
-      <File FileName="Assets\Scripts\Enemy's\Enemies.cs" Line="9" Column="3" />
-      <File FileName="Assets\Scripts\Enemy's\EnemyMovement.cs" Line="48" Column="24" />
-      <File FileName="Assets\Scripts\Enemy's\Damage.cs" Line="9" Column="24" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TowerAttributes\MusketTower.cs">
-    <Files>
-      <File FileName="Assets\Scripts\ProjectileAttributes\ProjectileClass.cs" Line="21" Column="2" />
-      <File FileName="Assets\Scripts\TowerAttributes\MusketTower.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TowerAttributes\CannonTower.cs" Line="4" Column="1" />
-      <File FileName="Assets\Scripts\TowerAttributes\GrenadierTower.cs" Line="1" Column="1" />
->>>>>>> origin/master
->>>>>>> origin/master
+      <File FileName="Assets\Scripts\WaveSystem\WaveSystemTest02\WaveTest02.cs" Line="12" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
