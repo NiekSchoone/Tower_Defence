@@ -15,31 +15,14 @@ public class EnemyMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		_currentWaypoint = 0;
-
-		/*//Searching for Gameobject and putting in an array.
-		GameObject[] gObjects = (GameObject[])FindObjectsOfType(typeof(GameObject));
-
-		//sort all the gameobject in gObjects[] with the name "Waypoints" in it.
-		for (int i = 0; i <gObjects.Length; i++) {
-			if (gObjects[i].name.Contains ("Waypoint_"))
-			{
-				waypoints.Add(gObjects[i]);
-			}
-		}*/
 	}
 
-	// Update is called once per frame
-<<<<<<< HEAD
-	void Update () {
-		Destroy ();
-=======
 	void Update () 
 	{
 		if(_currentWaypoint >= (waypoints.Count))
 		{
 			Destroy ();
 		}
->>>>>>> origin/master
 
 		//speed for Enemey.
 		float step = _speed * Time.deltaTime;
@@ -51,17 +34,9 @@ public class EnemyMovement : MonoBehaviour {
 		transform.position = Vector3.MoveTowards(transform.position, waypoints[_currentWaypoint].transform.position, step);
 		//transform.LookAt(waypoints[_currentWaypoint].transform.position);
 	}
-
-<<<<<<< HEAD
 	void Destroy(){
 		if(_currentWaypoint >= (waypoints.Count - 1))
 			Destroy(gameObject);
-=======
-	void Destroy()
-	{
-		Destroy(gameObject);
-		//Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin += 2;
->>>>>>> origin/master
 	}
 	
 }

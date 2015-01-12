@@ -2,10 +2,15 @@
 using System.Collections;
 
 public class Damage : MonoBehaviour {
+ 
+	private float _fortressHealth = 1000;
 
-	// Update is called once per frame
-	void OnTriggerEnter2D (Collider2D fortress) {
-		if(fortress.gameObject.tag == "Enemys")
+	void OnTriggerEnter2D (Collider2D fortress) 
+	{
+		if(fortress.gameObject.tag == "Enemy")
+		{
+			//fortress.GetComponent<Enemies>().DamageFortress(fortressHealth:);
 			Debug.Log("Damage");
+		}
 	}
 }
