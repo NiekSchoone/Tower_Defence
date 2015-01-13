@@ -30,5 +30,13 @@ public class GatlingGunTower : TowerClass
 	protected override void AttackEnemy()
 	{
 		base.AttackEnemy();
+		if(target != null)
+		{
+			audio.Play();
+		}
+		if(target == null)
+		{
+			audio.Stop();
+		}
 	}
 }

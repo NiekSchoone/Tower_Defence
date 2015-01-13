@@ -10,6 +10,9 @@ using System.Linq;
 
 public class TowerClass : MonoBehaviour
 {
+
+	public AudioClip shootSound;
+
 	[SerializeField]
 	protected LayerMask EnemyLayer;
 	protected float radius;
@@ -45,7 +48,7 @@ public class TowerClass : MonoBehaviour
 
 	protected virtual void ChangeSprite()
 	{
-		towerSpriteRenderer.sprite = upgradeSprites[];
+		towerSpriteRenderer.sprite = upgradeSprites[0];
 	}
 	
 	protected virtual void Update()
@@ -68,8 +71,6 @@ public class TowerClass : MonoBehaviour
 
 	protected void EnemiesEnter()
 	{
-		ChangeSprite();
-
 		origin = new Vector2(transform.position.x, transform.position.y);
 		enemyTargetingArray = Physics2D.OverlapCircleAll(origin, radius, EnemyLayer);
 		for (int i = 0; i < enemyTargetingArray.Length; i++) 
@@ -88,9 +89,9 @@ public class TowerClass : MonoBehaviour
 
 	protected virtual void AttackEnemy()
 	{
+
 		if(target != null)
 		{
-
 			Vector2 myPos = new Vector2(this.transform.position.x, this.transform.position.y);
 			Vector2 targetPos = new Vector2(target.transform.position.x, target.transform.position.y);
 			Vector2 fireAt = targetPos - myPos;
@@ -98,6 +99,7 @@ public class TowerClass : MonoBehaviour
 			GameObject projectile = (GameObject)Instantiate(ammo, transform.position, rotation);
 			projectile.rigidbody2D.AddForce(fireAt * projectileSpeed);
 			coolDown = Time.time + fireRate;
+
 		}
 	}	
 }

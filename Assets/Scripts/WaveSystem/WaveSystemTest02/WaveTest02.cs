@@ -10,9 +10,12 @@ public class WaveTest02 : MonoBehaviour {
 	public GameObject SpawnPoints;
 	public GameObject Enemy01;
 	//public bool NextWave = true;
+	public AudioClip newWaveSound;
 
 
-	void Start(){
+
+	void Start()
+	{
 		StartCoroutine(SpawnWave());
 	}
 
@@ -20,6 +23,7 @@ public class WaveTest02 : MonoBehaviour {
 	{
 		yield return new WaitForSeconds (_TimeNextWave);
 		Wave ();
+		audio.PlayOneShot(newWaveSound);
 	}
 
 	IEnumerator SpawnEnemy(float _seconds){

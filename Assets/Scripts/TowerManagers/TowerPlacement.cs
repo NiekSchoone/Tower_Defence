@@ -12,10 +12,10 @@ public class TowerPlacement : MonoBehaviour
 	private CheckPlaceable selectedOld;
 	private TowerGUI getCurrentTower;
 
-	private Transform draggingNewTower;
+	public Transform draggingNewTower;
 
 	public  bool onBackgroundClick;
-	private	bool hasBeenPlaced;
+	public	bool hasBeenPlaced;
 	private bool canInstantiateNewTower;
 	
 	private SpriteRenderer sprtRenderer;
@@ -24,6 +24,9 @@ public class TowerPlacement : MonoBehaviour
 	public LayerMask towerMask;
 
 	public Texture2D trashCanTex;
+
+	public AudioClip noPlaceSound;
+	public AudioClip placeSound;
 
 	// Update is called once per frame
 	void Update () 
@@ -43,8 +46,11 @@ public class TowerPlacement : MonoBehaviour
 
 			if(Input.GetMouseButtonDown(0))
 			{
+
 				if(notColliding())
 				{
+					audio.PlayOneShot(placeSound);
+
 					sprtRenderer.sortingOrder = 4;			
 
 					newColor.a = 1;
@@ -52,6 +58,9 @@ public class TowerPlacement : MonoBehaviour
 					hasBeenPlaced = true;
 					draggingNewTower.GetComponent<RadiusIndicator>().removeRadiusIndicator();
 					draggingNewTower.GetComponent<TowerClass>().enabled = true;
+				}else
+				{
+					audio.PlayOneShot(noPlaceSound);
 				}
 			}
 		}else
