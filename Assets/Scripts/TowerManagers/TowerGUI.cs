@@ -15,6 +15,7 @@ public class TowerGUI : MonoBehaviour
 	public TowerClass currentTower;
 	public TowerClass priceCheck;
 
+	public AudioClip selectSound;
 
 	private int colums = 2;
 
@@ -42,6 +43,8 @@ public class TowerGUI : MonoBehaviour
 			}
 			if(GUI.Button(new Rect(calcX, calcY, 40, 40) ,textureArray[i]))
 			{
+				audio.PlayOneShot(selectSound);
+
 				currentTower = towerArray[i].GetComponent<TowerClass>();
 
 				Debug.Log(currentTower);

@@ -8,7 +8,7 @@ using System.Collections;
 
 public class CameraMovement : MonoBehaviour 
 {
-	float scrollSpeed = 3f;
+	float scrollSpeed = 5f;
 	
 	// Update is called once per frame
 	void Update () 
@@ -22,6 +22,6 @@ public class CameraMovement : MonoBehaviour
 		{
 			transform.Translate(Vector3.right * Time.deltaTime * -scrollSpeed);
 		}
-		transform.position = new Vector3(Mathf.Clamp(transform.position.x, -14f, 2f), transform.position.y, transform.position.z);
+		transform.position = new Vector3(Mathf.Clamp(transform.position.x, -26.75f, 2f), transform.position.y, transform.position.z);
 	}
 }
