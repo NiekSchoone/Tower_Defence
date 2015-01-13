@@ -4,7 +4,7 @@ using System.Collections;
 public class Enemies : MonoBehaviour {
 
 	protected float enemyHealth;
-	protected float fortressDamage;
+	public float fortressDamaging;
 	protected ProjectileClass projectileClass;
 
 	protected virtual void Start () 
@@ -21,13 +21,6 @@ public class Enemies : MonoBehaviour {
 
 		if(enemyHealth <= 0){
 			Destroy(gameObject);
-		}
-	}
-	public void DamageFortress(float fortressHealth){
-		fortressHealth = fortressHealth - fortressDamage;
-
-		if(fortressHealth <= 0){
-			Debug.Log("Dood jonge!");
 		}
 	}
 }
