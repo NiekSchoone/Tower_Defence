@@ -17,6 +17,7 @@ public class EnemyMovement : MonoBehaviour {
 		_currentWaypoint = 0;
 	}
 
+	// Update is called once per frame
 	void Update () 
 	{
 		if(_currentWaypoint >= (waypoints.Count))
@@ -34,6 +35,7 @@ public class EnemyMovement : MonoBehaviour {
 		transform.position = Vector3.MoveTowards(transform.position, waypoints[_currentWaypoint].transform.position, step);
 		//transform.LookAt(waypoints[_currentWaypoint].transform.position);
 	}
+
 	void Destroy(){
 		if(_currentWaypoint >= (waypoints.Count - 1))
 			Destroy(gameObject);

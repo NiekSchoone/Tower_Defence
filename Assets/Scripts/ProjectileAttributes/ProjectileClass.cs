@@ -27,7 +27,6 @@ public class ProjectileClass : MonoBehaviour
 		{
 			hit.GetComponent<Enemies>().TakeDamage(damage);
 			Destroy(gameObject);
-			Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin += 10;
 		}	
 	}
 }

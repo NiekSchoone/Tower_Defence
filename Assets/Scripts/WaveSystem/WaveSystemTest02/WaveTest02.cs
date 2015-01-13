@@ -27,6 +27,17 @@ public class WaveTest02 : MonoBehaviour {
 		Instantiate(Enemy01, SpawnPoints.transform.position,
 		            SpawnPoints.transform.rotation);
 	}
+	IEnumerator SpawnEnemy(){
+			for(int i = 0; i < _AmountWave; i++)
+			{
+				Instantiate(Enemy01, SpawnPoints.transform.position,
+				            SpawnPoints.transform.rotation);
+				_WaveCount++;
+				//NextWave = true;
+				//Debug.Log(_AmountWave);
+				yield return new WaitForSeconds (1);
+		}
+	}
 
 	void Wave(){
 		for(int k = 0; k < _AmountWave; k++)

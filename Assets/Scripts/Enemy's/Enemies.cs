@@ -20,6 +20,7 @@ public class Enemies : MonoBehaviour {
 		enemyHealth = enemyHealth - damage;
 
 		if(enemyHealth <= 0){
+			Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin += 10;
 			Destroy(gameObject);
 		}
 	}
