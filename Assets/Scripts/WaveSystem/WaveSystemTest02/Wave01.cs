@@ -1,55 +1,43 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class WaveTest02 : MonoBehaviour {
+public class Wave01 : MonoBehaviour {
 	
-	private int _WaveCount = 1;
-	//private int _EnemyCount = 0;
+	private int _WaveCount = 0;
 	private float _AmountWave = 2;
 	private int _TimeNextWave = 10;
 	public GameObject SpawnPoints;
-	public GameObject Enemy01;
-	//public bool NextWave = true;
+	public List<GameObject> Enemies = new List<GameObject> ();
 	public AudioClip newWaveSound;
-
-
-
+	
+	
 	void Start()
 	{
 		StartCoroutine(SpawnWave());
 	}
-
+	
 	IEnumerator SpawnWave()
 	{
 		yield return new WaitForSeconds (_TimeNextWave);
 		Wave ();
 		audio.PlayOneShot(newWaveSound);
 	}
-
+	
 	IEnumerator SpawnEnemy(float _seconds){
 		yield return new WaitForSeconds (_seconds);
-		Instantiate(Enemy01, SpawnPoints.transform.position,
+		Instantiate(Enemies[Random.Range(0, Enemies.Count)], SpawnPoints.transform.position,
 		            SpawnPoints.transform.rotation);
 	}
-	IEnumerator SpawnEnemy(){
-			for(int i = 0; i < _AmountWave; i++)
-			{
-				Instantiate(Enemy01, SpawnPoints.transform.position,
-				            SpawnPoints.transform.rotation);
-				_WaveCount++;
-				//NextWave = true;
-				//Debug.Log(_AmountWave);
-				yield return new WaitForSeconds (1);
-		}
-	}
-
+	
 	void Wave(){
 		for(int k = 0; k < _AmountWave; k++)
 		{
 			StartCoroutine(SpawnEnemy(1f * k));
 		}
-
+		
 		_AmountWave = _AmountWave + 1;
+		_WaveCount = _WaveCount + 1;
 		StartCoroutine(SpawnWave());
 	}
 }
