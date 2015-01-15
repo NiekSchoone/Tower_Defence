@@ -10,15 +10,16 @@ public class GatlingGunTower : TowerClass
 {
 	protected override void Awake()
 	{
-		towerPrice = 200;
 		fireRate = 0.3f;
 		projectileSpeed = 200;
-		radius = 1.2f;		
+		towerPrice = 2000;
 		base.Awake();
 	}
 
 	protected override void Update () 
 	{
+		radius = 1.6f;	
+
 		base.Update();
 	}
 	
@@ -38,5 +39,7 @@ public class GatlingGunTower : TowerClass
 		{
 			audio.Stop();
 		}
+		shootAnim.speed = fireRate * 5;
+
 	}
 }

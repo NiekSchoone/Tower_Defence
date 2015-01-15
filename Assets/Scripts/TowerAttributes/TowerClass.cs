@@ -10,6 +10,7 @@ using System.Linq;
 
 public class TowerClass : MonoBehaviour
 {
+	public int towerPrice;
 
 	public AudioClip shootSound;
 
@@ -24,7 +25,7 @@ public class TowerClass : MonoBehaviour
 
 	protected float fireRate;
 
-	protected float coolDown = 1;
+	protected float coolDown = 3;
 
 	protected float projectileSpeed;
 
@@ -38,19 +39,15 @@ public class TowerClass : MonoBehaviour
 
 	protected SpriteRenderer towerSpriteRenderer;
 
-	public int towerPrice;
-
+	public Animator shootAnim;
+	
 	protected virtual void Awake()
 	{
 		this.enabled = false;
+		shootAnim.GetComponentInChildren<Animator>();
 		towerSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
 	}
 
-	protected virtual void ChangeSprite()
-	{
-		towerSpriteRenderer.sprite = upgradeSprites[0];
-	}
-	
 	protected virtual void Update()
 	{
 		EnemiesEnter();
@@ -87,6 +84,12 @@ public class TowerClass : MonoBehaviour
 		target = enemyTargetingArray[0].gameObject;
 	}
 
+	public void UpgradeTower()
+	{
+		int towerLevel = +1;
+		towerSpriteRenderer.sprite = upgradeSprites[towerLevel];
+	}
+
 	protected virtual void AttackEnemy()
 	{
 
@@ -99,7 +102,11 @@ public class TowerClass : MonoBehaviour
 			GameObject projectile = (GameObject)Instantiate(ammo, transform.position, rotation);
 			projectile.rigidbody2D.AddForce(fireAt * projectileSpeed);
 			coolDown = Time.time + fireRate;
-
+			shootAnim.SetBool("IsShooting", true);
+		}
+		if(target == null)
+		{
+			shootAnim.SetBool("IsShooting", false);
 		}
 	}	
 }

@@ -11,15 +11,15 @@ public class MusketTower : TowerClass
 
 	protected override void Awake()
 	{
-		towerPrice = 100;
 		fireRate = 0.75f;
-		projectileSpeed = 200;
-		radius = 1.4f;
+		projectileSpeed = 240;
+		towerPrice = 100;
 		base.Awake();
 	}
 
 	protected override void Update () 
-	{
+	{		
+		radius = 1.4f;
 		base.Update();
 	}
 
@@ -35,5 +35,7 @@ public class MusketTower : TowerClass
 		{
 			audio.PlayOneShot(shootSound);
 		}
+		shootAnim.speed = fireRate * 2;
+
 	}
 }

@@ -15,8 +15,11 @@ public class CheckPlaceable : MonoBehaviour
 
 	private bool selectedIsExisting;
 
+	public TowerClass getUpgrade;
+
 	void Start()
 	{
+		getUpgrade = GetComponent<TowerClass>();
 	}
 
 	void OnTriggerEnter2D(Collider2D col)
@@ -34,13 +37,14 @@ public class CheckPlaceable : MonoBehaviour
 			colliders.Remove(col);
 		}
 	}
+
 	void OnGUI()
 	{
 		if(selectedIsExisting)
 		{
 			if(GUI.Button(new Rect(Screen.width / 2, Screen.height / 1.15f, 40,40), upgradeTexture))
 			{
-
+				getUpgrade.UpgradeTower();
 			}
 		}
 	}

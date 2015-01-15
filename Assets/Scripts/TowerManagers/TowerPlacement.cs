@@ -23,17 +23,20 @@ public class TowerPlacement : MonoBehaviour
 
 	public LayerMask towerMask;
 
-	public Texture2D trashCanTex;
+	public GUIStyle trashCanTex;
 
 	public AudioClip noPlaceSound;
 	public AudioClip placeSound;
-
+	public AudioClip selectSound;
+	
 	// Update is called once per frame
 	void Update () 
 	{
 		Vector3 mouseFollow = Input.mousePosition;
 		mouseFollow = new Vector3(mouseFollow.x, mouseFollow.y, -transform.position.z);
 		Vector3 towerPos = camera.ScreenToWorldPoint(mouseFollow);
+
+
 
 		if(draggingNewTower != null && !hasBeenPlaced)
 		{
@@ -77,11 +80,14 @@ public class TowerPlacement : MonoBehaviour
 					//if you have a tower selected and click another tower, deselect the old tower, select the new tower
 					if(selectedOld != null)
 					{
+						audio.PlayOneShot(selectSound);
+
 						selectedOld.GetComponent<RadiusIndicator>().removeRadiusIndicator();
 						selectedOld.setSelectExisting(false);
 					}
 
 					//selecting a tower
+					audio.PlayOneShot(selectSound);
 
 					//upgradeButton.SetActive(true);
 					hitTower.collider.gameObject.GetComponent<CheckPlaceable>().setSelectExisting(true);
@@ -96,6 +102,8 @@ public class TowerPlacement : MonoBehaviour
 					//if you have a tower selected and don't click another tower, deselect the old tower
 					if(selectedOld != null && onBackgroundClick == true)
 					{
+						audio.PlayOneShot(placeSound);
+
 						//upgradeButton.SetActive(false);
 						selectedOld.GetComponent<RadiusIndicator>().removeRadiusIndicator();
 						selectedOld.setSelectExisting(false);
@@ -136,7 +144,7 @@ public class TowerPlacement : MonoBehaviour
 			GUI.enabled = true;
 		}
 
-		if(GUI.Button(new Rect(Screen.width / 1.16f, Screen.height / 1.15f, 80, 60), trashCanTex))
+		if(GUI.Button(new Rect(Screen.width / 1.16f, Screen.height / 1.15f, 80, 60), "", trashCanTex))
 		{
 			Destroy(draggingNewTower.gameObject);
 			Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin += Camera.main.gameObject.GetComponent<TowerGUI>().currentTower.towerPrice;

@@ -9,7 +9,7 @@ using System.Collections;
 public class TowerGUI : MonoBehaviour 
 {
 	public GameObject[] towerArray;
-	public Texture2D[]	textureArray;
+	public GUIStyle[]	textureArray;
 	private TowerPlacement towerPlacer;
 	private GoldScript gold;
 	public TowerClass currentTower;
@@ -41,7 +41,7 @@ public class TowerGUI : MonoBehaviour
 			{
 				GUI.enabled = false;
 			}
-			if(GUI.Button(new Rect(calcX, calcY, 40, 40) ,textureArray[i]))
+			if(GUI.Button(new Rect(calcX, calcY, 40, 40), "",textureArray[i]))
 			{
 				audio.PlayOneShot(selectSound);
 

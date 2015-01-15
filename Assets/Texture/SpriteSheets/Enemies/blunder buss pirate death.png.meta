@@ -1,0 +1,700 @@
+fileFormatVersion: 2
+guid: fb0725789d2aea24cb5d7bbdc3e3cf04
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: blunder buss pirate death_1
+    21300002: blunder buss pirate death_2
+    21300004: blunder buss pirate death_3
+    21300006: blunder buss pirate death_4
+    21300008: blunder buss pirate death_5
+    21300010: blunder buss pirate death_6
+    21300012: blunder buss pirate death_7
+    21300014: blunder buss pirate death_8
+    21300016: blunder buss pirate death_9
+    21300018: blunder buss pirate death_10
+    21300020: blunder buss pirate death_11
+    21300022: blunder buss pirate death_12
+    21300024: blunder buss pirate death_13
+    21300026: blunder buss pirate death_14
+    21300028: blunder buss pirate death_15
+    21300030: blunder buss pirate death_16
+    21300032: blunder buss pirate death_17
+    21300034: blunder buss pirate death_18
+    21300036: blunder buss pirate death_19
+    21300038: blunder buss pirate death_20
+    21300040: blunder buss pirate death_21
+    21300042: blunder buss pirate death_22
+    21300044: blunder buss pirate death_23
+    21300046: blunder buss pirate death_24
+    21300048: blunder buss pirate death_25
+    21300050: blunder buss pirate death_26
+    21300052: blunder buss pirate death_27
+    21300054: blunder buss pirate death_28
+    21300056: blunder buss pirate death_29
+    21300058: blunder buss pirate death_30
+    21300060: blunder buss pirate death_31
+    21300062: blunder buss pirate death_32
+    21300064: blunder buss pirate death_33
+    21300066: blunder buss pirate death_34
+    21300068: blunder buss pirate death_35
+    21300070: blunder buss pirate death_36
+    21300072: blunder buss pirate death_37
+    21300074: blunder buss pirate death_38
+    21300076: blunder buss pirate death_39
+    21300078: blunder buss pirate death_40
+    21300080: blunder buss pirate death_41
+    21300082: blunder buss pirate death_42
+    21300084: blunder buss pirate death_43
+    21300086: blunder buss pirate death_44
+    21300088: blunder buss pirate death_45
+    21300090: blunder buss pirate death_46
+    21300092: blunder buss pirate death_47
+    21300094: blunder buss pirate death_48
+    21300096: blunder buss pirate death_49
+    21300098: blunder buss pirate death_50
+    21300100: blunder buss pirate death_51
+    21300102: blunder buss pirate death_52
+    21300104: blunder buss pirate death_53
+    21300106: blunder buss pirate death_54
+    21300108: blunder buss pirate death_55
+    21300110: blunder buss pirate death_56
+    21300112: blunder buss pirate death_57
+    21300114: blunder buss pirate death_58
+    21300116: blunder buss pirate death_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: blunder buss pirate death_1
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 3837
+        width: 184
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_2
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 3831
+        width: 184
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_3
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 3825
+        width: 187
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_4
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 3819
+        width: 187
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_5
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 3813
+        width: 184
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_6
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 3808
+        width: 184
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_7
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 3811
+        width: 185
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 3445
+        width: 187
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_9
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 3447
+        width: 188
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_10
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 3447
+        width: 190
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_11
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 3451
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_12
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 3457
+        width: 194
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_13
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 3461
+        width: 201
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_14
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 3467
+        width: 202
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_15
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 3469
+        width: 206
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_16
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 3103
+        width: 209
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_17
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 3103
+        width: 206
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_18
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 3103
+        width: 208
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_19
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 3103
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_20
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 3103
+        width: 208
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_21
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 3103
+        width: 210
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_22
+      rect:
+        serializedVersion: 2
+        x: 2931
+        y: 3103
+        width: 210
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_23
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 3103
+        width: 212
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_24
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 2739
+        width: 214
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_25
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 2739
+        width: 216
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_26
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 2736
+        width: 216
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_27
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 2736
+        width: 219
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_28
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 2739
+        width: 218
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_29
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 2739
+        width: 218
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_30
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 2739
+        width: 220
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_31
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 2739
+        width: 222
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_32
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2373
+        width: 224
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_33
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 2373
+        width: 225
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_34
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 2373
+        width: 226
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_35
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 2373
+        width: 228
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_36
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 2375
+        width: 231
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_37
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 2375
+        width: 226
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_38
+      rect:
+        serializedVersion: 2
+        x: 2885
+        y: 2373
+        width: 224
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_39
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 2359
+        width: 220
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_40
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1983
+        width: 218
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_41
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1971
+        width: 212
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_42
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1961
+        width: 218
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_43
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 1951
+        width: 226
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_44
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 1941
+        width: 234
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_45
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 1935
+        width: 241
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_46
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 1933
+        width: 250
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_47
+      rect:
+        serializedVersion: 2
+        x: 3307
+        y: 1929
+        width: 258
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_48
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1563
+        width: 264
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_49
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1563
+        width: 269
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_50
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1563
+        width: 266
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_51
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1563
+        width: 266
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_52
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 1563
+        width: 266
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_53
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 1563
+        width: 266
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_54
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 1563
+        width: 266
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_55
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 1563
+        width: 266
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_56
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1197
+        width: 266
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_57
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1197
+        width: 266
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_58
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1197
+        width: 265
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blunder buss pirate death_59
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1198
+        width: 264
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

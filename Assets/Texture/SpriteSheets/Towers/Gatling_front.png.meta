@@ -1,0 +1,553 @@
+fileFormatVersion: 2
+guid: 5bd8b523c03be6643b22e633c28c5f8d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Gatling_front_0
+    21300002: Gatling_front_1
+    21300004: Gatling_front_2
+    21300006: Gatling_front_3
+    21300008: Gatling_front_4
+    21300010: Gatling_front_5
+    21300012: Gatling_front_6
+    21300014: Gatling_front_7
+    21300016: Gatling_front_8
+    21300018: Gatling_front_9
+    21300020: Gatling_front_10
+    21300022: Gatling_front_11
+    21300024: Gatling_front_12
+    21300026: Gatling_front_13
+    21300028: Gatling_front_14
+    21300030: Gatling_front_15
+    21300032: Gatling_front_16
+    21300034: Gatling_front_17
+    21300036: Gatling_front_18
+    21300038: Gatling_front_19
+    21300040: Gatling_front_20
+    21300042: Gatling_front_21
+    21300044: Gatling_front_22
+    21300046: Gatling_front_23
+    21300048: Gatling_front_24
+    21300050: Gatling_front_25
+    21300052: Gatling_front_26
+    21300054: Gatling_front_27
+    21300056: Gatling_front_28
+    21300058: Gatling_front_29
+    21300060: Gatling_front_30
+    21300062: Gatling_front_31
+    21300064: Gatling_front_32
+    21300066: Gatling_front_33
+    21300068: Gatling_front_34
+    21300070: Gatling_front_35
+    21300072: Gatling_front_36
+    21300074: Gatling_front_37
+    21300076: Gatling_front_38
+    21300078: Gatling_front_39
+    21300080: Gatling_front_40
+    21300082: Gatling_front_41
+    21300084: Gatling_front_42
+    21300086: Gatling_front_43
+    21300088: Gatling_front_44
+    21300090: Gatling_front_45
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Gatling_front_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1828
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1828
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_2
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1828
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_3
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1828
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_4
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1828
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_5
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1828
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1608
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1608
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_8
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1608
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_9
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1608
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_10
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1608
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_11
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1608
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1388
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1388
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_14
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1388
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_15
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1388
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_16
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1388
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_17
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1388
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1168
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_19
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1168
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_20
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1168
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_21
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1168
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_22
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1168
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_23
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1168
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 948
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_25
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 948
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_26
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 948
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_27
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 948
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_28
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 948
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_29
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 948
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 728
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_31
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 728
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_32
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 728
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_33
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 728
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_34
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 728
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_35
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 728
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_37
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 508
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_38
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 508
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_39
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 508
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_40
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 508
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_41
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 508
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_43
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 288
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_44
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 288
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Gatling_front_45
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 288
+        width: 162
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
