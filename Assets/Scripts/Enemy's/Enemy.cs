@@ -1,33 +1,35 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 
-public class EnemyMovement : MonoBehaviour {
+public class Enemy : MonoBehaviour {
+	
+	protected float enemyHealth;
+	public float fortressDamaging;
+	protected float Speed;
+	protected ProjectileClass projectileClass;
+
 	//Making a list for all the waypoints.
 	public List<GameObject> waypoints = new List<GameObject>();
-
+	
 	//private variable's.
-	private float _speed = 0;
 	private int _currentWaypoint;
 
-	
-	// Use this for initialization
-	void Start () {
+	protected virtual void Start () 
+	{
 		_currentWaypoint = 0;
 	}
-
-	// Update is called once per frame
-	void Update () 
+	protected virtual void Update () 
 	{
-		if(_currentWaypoint >= (waypoints.Count))
+		if(_currentWaypoint >= (waypoints.Count - 1))
 		{
 			Destroy ();
 		}
-
+		
 		//speed for Enemey.
-		float step = _speed * Time.deltaTime;
-
+		float step = Speed * Time.deltaTime;
+		
 		//Let him know that he is at the waypoint.
 		if (Vector3.Distance(transform.position, waypoints[_currentWaypoint].transform.position) < Random.Range(-0.1f, 0.1f))
 			_currentWaypoint++;
@@ -36,9 +38,16 @@ public class EnemyMovement : MonoBehaviour {
 		//transform.LookAt(waypoints[_currentWaypoint].transform.position);
 	}
 
-	void Destroy(){
+	public void TakeDamage(float damage){
+		enemyHealth = enemyHealth - damage;
+
+		if(enemyHealth <= 0){
+			Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin += 10;
+			Destroy(gameObject);
+		}
+	}
+	public void Destroy(){
 		if(_currentWaypoint >= (waypoints.Count - 1))
 			Destroy(gameObject);
 	}
-	
 }

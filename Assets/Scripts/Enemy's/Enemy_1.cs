@@ -1,21 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy_1 : Enemies 
+public class Enemy_1 : Enemy 
 {
 	protected override void Start () 
 	{
-<<<<<<< HEAD
 		enemyHealth = 100;
 		fortressDamaging = 500;
-=======
-		enemyHealth = 50;
-		fortressDamage = 2000;
->>>>>>> origin/master
+		Speed = 0.75f;
 	}
 
 	protected override void Update()
 	{
-
+		base.Update ();
 	}
 }

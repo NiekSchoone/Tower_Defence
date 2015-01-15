@@ -10,7 +10,7 @@ public class Damage : MonoBehaviour {
 
 		if(fortress.gameObject.tag == "Enemy")
 		{
-			float DamageFort = fortress.GetComponent<Enemies>().fortressDamaging;
+			float DamageFort = fortress.GetComponent<Enemy>().fortressDamaging;
 			_fortressHealth = _fortressHealth - DamageFort;
 			
 			if(_fortressHealth <= 0){
