@@ -6,7 +6,7 @@ public class Enemy_2 : Enemy
 	protected override void Start () 
 	{
 		enemyHealth = 10;
-		fortressDamaging = 1000;
+		fortressDamaging = 200;
 		speed = 0.5f;
 	}
 
