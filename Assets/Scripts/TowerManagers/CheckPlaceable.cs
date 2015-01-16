@@ -17,9 +17,13 @@ public class CheckPlaceable : MonoBehaviour
 
 	public TowerClass getUpgrade;
 
+	private GoldScript gold;
+
 	void Start()
 	{
 		getUpgrade = GetComponent<TowerClass>();
+		gold = GetComponent<GoldScript>();
+
 	}
 
 	void OnTriggerEnter2D(Collider2D col)
@@ -42,12 +46,13 @@ public class CheckPlaceable : MonoBehaviour
 	{
 		if(selectedIsExisting)
 		{
-			if(getUpgrade.towerLevel3 == true)
+			if(getUpgrade.towerLevel3 == true || Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin <= 100)
 			{
 				GUI.enabled = false;
 			}
 			if(GUI.Button(new Rect(Screen.width / 2, Screen.height / 1.15f, 40,40), upgradeTexture))
 			{
+				Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin -= 100;
 				if(getUpgrade.towerLevel2 == false)
 				{
 					getUpgrade.towerLevel2 = true;

@@ -34,7 +34,7 @@ public class TowerGUI : MonoBehaviour
 			priceCheck = towerArray[i].GetComponent<TowerClass>();
 
 			float calcX = (Screen.width/1.180f) + i%colums*(Screen.width/12.5f);
-			float calcY = (Screen.height/ 15) + Mathf.Floor(i / colums) * (Screen.height / 9);
+			float calcY = (Screen.height/ 10) + Mathf.Floor(i / colums) * (Screen.height / 9);
 
 			//if the player does not have enough gold, the buttons will be dissabled
 			if(gold.playerOwnedCoin <= priceCheck.towerPrice)
