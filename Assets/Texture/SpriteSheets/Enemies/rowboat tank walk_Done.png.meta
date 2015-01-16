@@ -1,0 +1,502 @@
+fileFormatVersion: 2
+guid: 24aa8fa8a5ade4148b396bbb0a32afa3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rowboat tank walk_0
+    21300002: rowboat tank walk_1
+    21300004: rowboat tank walk_2
+    21300006: rowboat tank walk_3
+    21300008: rowboat tank walk_4
+    21300010: rowboat tank walk_5
+    21300012: rowboat tank walk_6
+    21300014: rowboat tank walk_7
+    21300016: rowboat tank walk_8
+    21300018: rowboat tank walk_9
+    21300020: rowboat tank walk_10
+    21300022: rowboat tank walk_11
+    21300024: rowboat tank walk_12
+    21300026: rowboat tank walk_13
+    21300028: rowboat tank walk_14
+    21300030: rowboat tank walk_15
+    21300032: rowboat tank walk_16
+    21300034: rowboat tank walk_17
+    21300036: rowboat tank walk_18
+    21300038: rowboat tank walk_19
+    21300040: rowboat tank walk_20
+    21300042: rowboat tank walk_21
+    21300044: rowboat tank walk_22
+    21300046: rowboat tank walk_23
+    21300048: rowboat tank walk_24
+    21300050: rowboat tank walk_25
+    21300052: rowboat tank walk_26
+    21300054: rowboat tank walk_27
+    21300056: rowboat tank walk_28
+    21300058: rowboat tank walk_29
+    21300060: rowboat tank walk_30
+    21300062: rowboat tank walk_31
+    21300064: rowboat tank walk_32
+    21300066: rowboat tank walk_33
+    21300068: rowboat tank walk_34
+    21300070: rowboat tank walk_35
+    21300072: rowboat tank walk_36
+    21300074: rowboat tank walk_37
+    21300076: rowboat tank walk_38
+    21300078: rowboat tank walk_39
+    21300080: rowboat tank walk_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 3833, z: 501, w: 20}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: rowboat tank walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3830
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_1
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 3830
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_2
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 3830
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3564
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_4
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 3564
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_5
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 3564
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3298
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_7
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 3298
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_8
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 3298
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3032
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_10
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 3032
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_11
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 3032
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2766
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_13
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2766
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_14
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 2766
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2500
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_16
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2500
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_17
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 2500
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2234
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_19
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2234
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_20
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 2234
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1968
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_22
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1968
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_23
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1968
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1702
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_25
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1702
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_26
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1702
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1436
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_28
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1436
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_29
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1436
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1170
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_31
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1170
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_32
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1170
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_34
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 904
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_35
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 904
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_37
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 638
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_38
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 638
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowboat tank walk_40
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 372
+        width: 520
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

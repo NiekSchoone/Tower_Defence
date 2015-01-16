@@ -7,7 +7,8 @@ public class Enemy_1 : Enemy
 	{
 		enemyHealth = 100;
 		fortressDamaging = 500;
-		Speed = 0.75f;
+		enemyHealth = 50;
+		speed = 0.75f;
 	}
 
 	protected override void Update()

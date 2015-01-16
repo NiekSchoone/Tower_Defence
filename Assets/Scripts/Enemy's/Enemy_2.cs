@@ -5,11 +5,11 @@ public class Enemy_2 : Enemy
 {
 	protected override void Start () 
 	{
-		enemyHealth = 200;
+		enemyHealth = 10;
 		fortressDamaging = 1000;
-		Speed = 2.0f;
+		speed = 0.5f;
 	}
-	
+
 	protected override void Update()
 	{
 		base.Update ();

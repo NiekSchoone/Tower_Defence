@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: a294ac29cc86c644b9ed77d1148d042d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BoomDing_0
+    21300002: BoomDing_1
+    21300004: BoomDing_2
+    21300006: BoomDing_3
+    21300008: BoomDing_4
+    21300010: BoomDing_5
+    21300012: BoomDing_6
+    21300014: BoomDing_7
+    21300016: BoomDing_8
+    21300018: BoomDing_9
+    21300020: BoomDing_10
+    21300022: BoomDing_11
+    21300024: BoomDing_12
+    21300026: BoomDing_13
+    21300028: BoomDing_14
+    21300030: BoomDing_15
+    21300032: BoomDing_16
+    21300034: BoomDing_17
+    21300036: BoomDing_18
+    21300038: BoomDing_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BoomDing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_1
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1680
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_2
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1680
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_3
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1680
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_4
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1680
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1312
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_6
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1312
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_7
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1312
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_8
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1312
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_9
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1312
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_11
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 944
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_12
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 944
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_13
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 944
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_14
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 944
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_16
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 576
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_17
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 576
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_18
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 576
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BoomDing_19
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 576
+        width: 368
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

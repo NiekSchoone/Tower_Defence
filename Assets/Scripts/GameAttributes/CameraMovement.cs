@@ -22,6 +22,6 @@ public class CameraMovement : MonoBehaviour
 		{
 			transform.Translate(Vector3.right * Time.deltaTime * -scrollSpeed);
 		}
-		transform.position = new Vector3(Mathf.Clamp(transform.position.x, -26.75f, 2f), transform.position.y, transform.position.z);
+		transform.position = new Vector3(Mathf.Clamp(transform.position.x, -26.8f, 2f), transform.position.y, transform.position.z);
 	}
 }
