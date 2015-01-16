@@ -5,9 +5,9 @@ using System.Collections.Generic;
 public class Wave01 : MonoBehaviour {
 
 	[SerializeField]
-	private int _WaveCount = 0;
 	private float _AmountWave = 2;
 	private int _TimeNextWave = 10;
+	public int _WaveCount = 0;
 	public GameObject SpawnPoints;
 	public List<GameObject> enemies = new List<GameObject> ();
 	public AudioClip newWaveSound;
