@@ -55,7 +55,7 @@ public class Enemy : MonoBehaviour {
 		}
 	}
 	public void Destroy(){
-		if(_currentWaypoint >= (waypoints.Count - 1))
+		if(_currentWaypoint >= (waypoints.Count))
 			Destroy(gameObject);
 	}
 

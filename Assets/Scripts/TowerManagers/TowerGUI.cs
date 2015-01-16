@@ -33,7 +33,7 @@ public class TowerGUI : MonoBehaviour
 
 			priceCheck = towerArray[i].GetComponent<TowerClass>();
 
-			float calcX = (Screen.width/1.185f) + i%colums*(Screen.width/12.5f);
+			float calcX = (Screen.width/1.180f) + i%colums*(Screen.width/12.5f);
 			float calcY = (Screen.height/ 15) + Mathf.Floor(i / colums) * (Screen.height / 9);
 
 			//if the player does not have enough gold, the buttons will be dissabled
@@ -41,7 +41,7 @@ public class TowerGUI : MonoBehaviour
 			{
 				GUI.enabled = false;
 			}
-			if(GUI.Button(new Rect(calcX, calcY, 40, 40), "",textureArray[i]))
+			if(GUI.Button(new Rect(calcX, calcY, 50, 50), "",textureArray[i]))
 			{
 				audio.PlayOneShot(selectSound);
 
