@@ -53,7 +53,7 @@ public class TowerPlacement : MonoBehaviour
 				if(notColliding())
 				{
 					audio.PlayOneShot(placeSound);
-
+					
 					sprtRenderer.sortingOrder = 4;
 
 					newColor.a = 1;
