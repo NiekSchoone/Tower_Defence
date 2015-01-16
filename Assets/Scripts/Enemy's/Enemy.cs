@@ -7,18 +7,23 @@ public class Enemy : MonoBehaviour {
 	
 	protected float enemyHealth;
 	public float fortressDamaging;
-	protected float Speed;
+	protected float speed;
 	protected ProjectileClass projectileClass;
 
 	//Making a list for all the waypoints.
-	public List<GameObject> waypoints = new List<GameObject>();
+	[SerializeField]
+	protected List<GameObject> waypoints = new List<GameObject>();
 	
 	//private variable's.
 	private int _currentWaypoint;
 
+	public Animator anim;
+
 	protected virtual void Start () 
 	{
 		_currentWaypoint = 0;
+		anim.GetComponent<Animator>();
+
 	}
 	protected virtual void Update () 
 	{
@@ -28,7 +33,7 @@ public class Enemy : MonoBehaviour {
 		}
 		
 		//speed for Enemey.
-		float step = Speed * Time.deltaTime;
+		float step = speed * Time.deltaTime;
 		
 		//Let him know that he is at the waypoint.
 		if (Vector3.Distance(transform.position, waypoints[_currentWaypoint].transform.position) < Random.Range(-0.1f, 0.1f))
@@ -42,12 +47,21 @@ public class Enemy : MonoBehaviour {
 		enemyHealth = enemyHealth - damage;
 
 		if(enemyHealth <= 0){
-			Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin += 10;
-			Destroy(gameObject);
+			anim.SetBool("IsDead", true);
+			speed -= speed;
+			gameObject.layer = 0;
+			collider.enabled = false;
 		}
 	}
 	public void Destroy(){
 		if(_currentWaypoint >= (waypoints.Count - 1))
 			Destroy(gameObject);
 	}
+
+	public void KillEnemy()
+	{
+		Destroy(gameObject);
+		Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin += 10;
+	}
+
 }

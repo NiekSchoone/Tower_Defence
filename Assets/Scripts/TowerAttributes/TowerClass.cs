@@ -86,8 +86,7 @@ public class TowerClass : MonoBehaviour
 
 	public void UpgradeTower()
 	{
-		int towerLevel = +1;
-		towerSpriteRenderer.sprite = upgradeSprites[towerLevel];
+		towerSpriteRenderer.sprite = upgradeSprites[1];
 	}
 
 	protected virtual void AttackEnemy()

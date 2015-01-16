@@ -7,14 +7,11 @@ public class Enemy_2 : Enemy
 	{
 		enemyHealth = 10;
 		fortressDamaging = 1000;
-		Speed = 2.0f;
+		speed = 0.5f;
 	}
-<<<<<<< HEAD
-=======
-	
+
 	protected override void Update()
 	{
 		base.Update ();
 	}
->>>>>>> origin/master
 }
