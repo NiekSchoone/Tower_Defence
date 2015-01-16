@@ -54,7 +54,7 @@ public class TowerPlacement : MonoBehaviour
 				{
 					audio.PlayOneShot(placeSound);
 
-					sprtRenderer.sortingOrder = 4;			
+					sprtRenderer.sortingOrder = 4;
 
 					newColor.a = 1;
 					sprtRenderer.color = newColor;

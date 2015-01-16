@@ -47,12 +47,8 @@ public class TowerGUI : MonoBehaviour
 
 				currentTower = towerArray[i].GetComponent<TowerClass>();
 
-				Debug.Log(currentTower);
-
 				gold.playerOwnedCoin -= currentTower.towerPrice;
 				towerPlacer.SetTower(towerArray[i]);
-				Debug.Log(currentTower.towerPrice);
-
 			}
 		}
 

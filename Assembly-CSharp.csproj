@@ -54,6 +54,8 @@
      <Compile Include="Assets\Scripts\Enemy&apos;s\Enemy_1.cs" />
      <Compile Include="Assets\Scripts\Enemy&apos;s\Enemy_2.cs" />
      <Compile Include="Assets\Scripts\Enemy&apos;s\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\Enemy&apos;s\Enemy_3.cs" />
+     <Compile Include="Assets\Scripts\Enemy&apos;s\Enemy_4.cs" />
      <Compile Include="Assets\Scripts\Enemy&apos;s\Waypoints.cs" />
      <Compile Include="Assets\Scripts\GameAttributes\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\GameAttributes\CustomCursor.cs" />

@@ -1,7 +1,47 @@
 fileFormatVersion: 2
 guid: d677fb88918eb9e42b2fa61dfe9b3d54
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: flintlock pirate walk_1
+    21300002: flintlock pirate walk_2
+    21300004: flintlock pirate walk_3
+    21300006: flintlock pirate walk_4
+    21300008: flintlock pirate walk_5
+    21300010: flintlock pirate walk_6
+    21300012: flintlock pirate walk_7
+    21300014: flintlock pirate walk_8
+    21300016: flintlock pirate walk_9
+    21300018: flintlock pirate walk_10
+    21300020: flintlock pirate walk_11
+    21300022: flintlock pirate walk_12
+    21300024: flintlock pirate walk_13
+    21300026: flintlock pirate walk_14
+    21300028: flintlock pirate walk_15
+    21300030: flintlock pirate walk_16
+    21300032: flintlock pirate walk_17
+    21300034: flintlock pirate walk_18
+    21300036: flintlock pirate walk_19
+    21300038: flintlock pirate walk_20
+    21300040: flintlock pirate walk_21
+    21300042: flintlock pirate walk_22
+    21300044: flintlock pirate walk_23
+    21300046: flintlock pirate walk_24
+    21300048: flintlock pirate walk_25
+    21300050: flintlock pirate walk_26
+    21300052: flintlock pirate walk_27
+    21300054: flintlock pirate walk_28
+    21300056: flintlock pirate walk_29
+    21300058: flintlock pirate walk_30
+    21300060: flintlock pirate walk_31
+    21300062: flintlock pirate walk_32
+    21300064: flintlock pirate walk_33
+    21300066: flintlock pirate walk_34
+    21300068: flintlock pirate walk_35
+    21300070: flintlock pirate walk_36
+    21300072: flintlock pirate walk_37
+    21300074: flintlock pirate walk_38
+    21300076: flintlock pirate walk_39
+    21300078: flintlock pirate walk_40
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -22,7 +62,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 2048
   textureSettings:
     filterMode: -1
     aniso: -1
@@ -31,7 +71,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -46,6 +86,406 @@ TextureImporter:
     textureFormat: -2
     compressionQuality: 50
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: flintlock pirate walk_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 830
+        width: 78
+        height: 183
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 830
+        width: 75
+        height: 183
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 830
+        width: 73
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_4
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 830
+        width: 71
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 830
+        width: 70
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_6
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 830
+        width: 68
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_7
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 830
+        width: 67
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_8
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 830
+        width: 65
+        height: 180
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 627
+        width: 67
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_10
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 627
+        width: 69
+        height: 180
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_11
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 627
+        width: 70
+        height: 180
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_12
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 627
+        width: 71
+        height: 180
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_13
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 627
+        width: 73
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_14
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 627
+        width: 74
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_15
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 627
+        width: 76
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_16
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 627
+        width: 77
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_17
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 627
+        width: 78
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 424
+        width: 80
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_19
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 424
+        width: 82
+        height: 183
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_20
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 424
+        width: 84
+        height: 183
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_21
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 424
+        width: 82
+        height: 183
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_22
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 424
+        width: 79
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_23
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 424
+        width: 78
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_24
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 424
+        width: 76
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_25
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 424
+        width: 75
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_26
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 424
+        width: 73
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_27
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 221
+        width: 71
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_28
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 221
+        width: 70
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_29
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 221
+        width: 68
+        height: 180
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_30
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 221
+        width: 71
+        height: 180
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_31
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 221
+        width: 70
+        height: 180
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_32
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 221
+        width: 71
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_33
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 222
+        width: 72
+        height: 180
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_34
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 222
+        width: 72
+        height: 180
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_35
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 220
+        width: 73
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 18
+        width: 74
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_37
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 19
+        width: 74
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_38
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 19
+        width: 75
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_39
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 19
+        width: 79
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate walk_40
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 18
+        width: 79
+        height: 183
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

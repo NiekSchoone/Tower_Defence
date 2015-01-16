@@ -43,6 +43,47 @@ TextureImporter:
     21300076: rowboat tank walk_38
     21300078: rowboat tank walk_39
     21300080: rowboat tank walk_40
+    21300082: rowboat tank walk_Done_1
+    21300084: rowboat tank walk_Done_2
+    21300086: rowboat tank walk_Done_3
+    21300088: rowboat tank walk_Done_4
+    21300090: rowboat tank walk_Done_5
+    21300092: rowboat tank walk_Done_6
+    21300094: rowboat tank walk_Done_7
+    21300096: rowboat tank walk_Done_8
+    21300098: rowboat tank walk_Done_9
+    21300100: rowboat tank walk_Done_10
+    21300102: rowboat tank walk_Done_11
+    21300104: rowboat tank walk_Done_12
+    21300106: rowboat tank walk_Done_13
+    21300108: rowboat tank walk_Done_14
+    21300110: rowboat tank walk_Done_15
+    21300112: rowboat tank walk_Done_16
+    21300114: rowboat tank walk_Done_17
+    21300116: rowboat tank walk_Done_18
+    21300118: rowboat tank walk_Done_19
+    21300120: rowboat tank walk_Done_20
+    21300122: rowboat tank walk_Done_21
+    21300124: rowboat tank walk_Done_22
+    21300126: rowboat tank walk_Done_23
+    21300128: rowboat tank walk_Done_24
+    21300130: rowboat tank walk_Done_25
+    21300132: rowboat tank walk_Done_26
+    21300134: rowboat tank walk_Done_27
+    21300136: rowboat tank walk_Done_28
+    21300138: rowboat tank walk_Done_29
+    21300140: rowboat tank walk_Done_30
+    21300142: rowboat tank walk_Done_31
+    21300144: rowboat tank walk_Done_32
+    21300146: rowboat tank walk_Done_33
+    21300148: rowboat tank walk_Done_34
+    21300150: rowboat tank walk_Done_35
+    21300152: rowboat tank walk_Done_36
+    21300154: rowboat tank walk_Done_37
+    21300156: rowboat tank walk_Done_38
+    21300158: rowboat tank walk_Done_39
+    21300160: rowboat tank walk_Done_40
+    21300162: rowboat tank walk_Done_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -88,415 +129,405 @@ TextureImporter:
     compressionQuality: 50
   spriteSheet:
     sprites:
-    - name: rowboat tank walk_0
+    - name: rowboat tank walk_Done_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3830
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 531
+        y: 3845
+        width: 484
+        height: 232
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_1
+    - name: rowboat tank walk_Done_2
       rect:
         serializedVersion: 2
-        x: 520
-        y: 3830
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1048
+        y: 3845
+        width: 485
+        height: 234
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_2
+    - name: rowboat tank walk_Done_3
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 3830
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 11
+        y: 3579
+        width: 484
+        height: 238
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_3
+    - name: rowboat tank walk_Done_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3564
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 529
+        y: 3581
+        width: 484
+        height: 238
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_4
+    - name: rowboat tank walk_Done_5
       rect:
         serializedVersion: 2
-        x: 520
-        y: 3564
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1049
+        y: 3581
+        width: 484
+        height: 240
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_5
+    - name: rowboat tank walk_Done_6
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 3564
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 11
+        y: 3313
+        width: 484
+        height: 246
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_6
+    - name: rowboat tank walk_Done_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3298
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 529
+        y: 3315
+        width: 484
+        height: 245
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_7
+    - name: rowboat tank walk_Done_8
       rect:
         serializedVersion: 2
-        x: 520
-        y: 3298
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1047
+        y: 3315
+        width: 484
+        height: 248
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_8
+    - name: rowboat tank walk_Done_9
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 3298
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 9
+        y: 3049
+        width: 484
+        height: 248
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_9
+    - name: rowboat tank walk_Done_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3032
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 529
+        y: 3049
+        width: 484
+        height: 250
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_10
+    - name: rowboat tank walk_Done_11
       rect:
         serializedVersion: 2
-        x: 520
-        y: 3032
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1047
+        y: 3047
+        width: 484
+        height: 250
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_11
+    - name: rowboat tank walk_Done_12
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 3032
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 8
+        y: 2783
+        width: 485
+        height: 247
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_12
+    - name: rowboat tank walk_Done_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2766
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 529
+        y: 2783
+        width: 484
+        height: 246
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_13
+    - name: rowboat tank walk_Done_14
       rect:
         serializedVersion: 2
-        x: 520
-        y: 2766
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1049
+        y: 2783
+        width: 484
+        height: 244
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_14
+    - name: rowboat tank walk_Done_15
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 2766
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 11
+        y: 2515
+        width: 484
+        height: 244
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_15
+    - name: rowboat tank walk_Done_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2500
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 2517
+        width: 485
+        height: 240
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_16
+    - name: rowboat tank walk_Done_17
       rect:
         serializedVersion: 2
-        x: 520
-        y: 2500
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1049
+        y: 2517
+        width: 484
+        height: 238
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_17
+    - name: rowboat tank walk_Done_18
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 2500
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 8
+        y: 2251
+        width: 487
+        height: 236
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_18
+    - name: rowboat tank walk_Done_19
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2234
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 529
+        y: 2251
+        width: 484
+        height: 232
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_19
+    - name: rowboat tank walk_Done_20
       rect:
         serializedVersion: 2
-        x: 520
-        y: 2234
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1048
+        y: 2248
+        width: 485
+        height: 233
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_20
+    - name: rowboat tank walk_Done_21
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 2234
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 8
+        y: 1983
+        width: 487
+        height: 234
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_21
+    - name: rowboat tank walk_Done_22
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1968
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 1983
+        width: 485
+        height: 238
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_22
+    - name: rowboat tank walk_Done_23
       rect:
         serializedVersion: 2
-        x: 520
-        y: 1968
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1049
+        y: 1983
+        width: 484
+        height: 240
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_23
+    - name: rowboat tank walk_Done_24
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 1968
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 11
+        y: 1717
+        width: 484
+        height: 242
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_24
+    - name: rowboat tank walk_Done_25
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1702
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 529
+        y: 1717
+        width: 484
+        height: 244
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_25
+    - name: rowboat tank walk_Done_26
       rect:
         serializedVersion: 2
-        x: 520
-        y: 1702
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1049
+        y: 1717
+        width: 484
+        height: 246
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_26
+    - name: rowboat tank walk_Done_27
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 1702
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 8
+        y: 1451
+        width: 485
+        height: 248
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_27
+    - name: rowboat tank walk_Done_28
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1436
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 529
+        y: 1451
+        width: 484
+        height: 248
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_28
+    - name: rowboat tank walk_Done_29
       rect:
         serializedVersion: 2
-        x: 520
-        y: 1436
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1047
+        y: 1451
+        width: 484
+        height: 250
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_29
+    - name: rowboat tank walk_Done_30
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 1436
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 9
+        y: 1185
+        width: 484
+        height: 252
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_30
+    - name: rowboat tank walk_Done_31
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1170
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 1185
+        width: 485
+        height: 250
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_31
+    - name: rowboat tank walk_Done_32
       rect:
         serializedVersion: 2
-        x: 520
-        y: 1170
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1047
+        y: 1185
+        width: 484
+        height: 250
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_32
+    - name: rowboat tank walk_Done_33
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 1170
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 8
+        y: 919
+        width: 485
+        height: 248
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_33
+    - name: rowboat tank walk_Done_34
       rect:
         serializedVersion: 2
-        x: 0
-        y: 904
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 529
+        y: 919
+        width: 484
+        height: 246
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_34
+    - name: rowboat tank walk_Done_35
       rect:
         serializedVersion: 2
-        x: 520
-        y: 904
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1049
+        y: 919
+        width: 484
+        height: 244
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_35
+    - name: rowboat tank walk_Done_36
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 904
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 11
+        y: 653
+        width: 484
+        height: 243
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_36
+    - name: rowboat tank walk_Done_37
       rect:
         serializedVersion: 2
-        x: 0
-        y: 638
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 529
+        y: 653
+        width: 484
+        height: 240
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_37
+    - name: rowboat tank walk_Done_38
       rect:
         serializedVersion: 2
-        x: 520
-        y: 638
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1049
+        y: 653
+        width: 484
+        height: 238
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_38
+    - name: rowboat tank walk_Done_39
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 638
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 11
+        y: 387
+        width: 484
+        height: 234
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_39
+    - name: rowboat tank walk_Done_40
       rect:
         serializedVersion: 2
-        x: 0
-        y: 372
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: rowboat tank walk_40
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 372
-        width: 520
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 531
+        y: 387
+        width: 484
+        height: 232
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

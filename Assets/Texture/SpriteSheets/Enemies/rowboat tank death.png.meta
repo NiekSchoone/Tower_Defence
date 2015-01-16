@@ -83,364 +83,354 @@ TextureImporter:
     compressionQuality: 50
   spriteSheet:
     sprites:
-    - name: rowboat tank death_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 3766
-        width: 562
-        height: 330
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_1
       rect:
         serializedVersion: 2
-        x: 562
-        y: 3766
-        width: 562
-        height: 330
-      alignment: 0
+        x: 619
+        y: 3825
+        width: 482
+        height: 232
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_2
       rect:
         serializedVersion: 2
-        x: 1124
-        y: 3766
-        width: 562
-        height: 330
-      alignment: 0
+        x: 1181
+        y: 3821
+        width: 484
+        height: 224
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_3
       rect:
         serializedVersion: 2
-        x: 1686
-        y: 3766
-        width: 562
-        height: 330
-      alignment: 0
+        x: 1745
+        y: 3815
+        width: 484
+        height: 217
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_4
       rect:
         serializedVersion: 2
-        x: 2248
-        y: 3766
-        width: 562
-        height: 330
-      alignment: 0
+        x: 2309
+        y: 3808
+        width: 484
+        height: 217
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_5
       rect:
         serializedVersion: 2
-        x: 2810
-        y: 3766
-        width: 562
-        height: 330
-      alignment: 0
+        x: 2872
+        y: 3807
+        width: 483
+        height: 217
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_6
       rect:
         serializedVersion: 2
-        x: 3372
-        y: 3766
-        width: 562
-        height: 330
-      alignment: 0
+        x: 3432
+        y: 3805
+        width: 487
+        height: 214
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3436
-        width: 562
-        height: 330
-      alignment: 0
+        x: 37
+        y: 3471
+        width: 484
+        height: 212
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_8
       rect:
         serializedVersion: 2
-        x: 562
-        y: 3436
-        width: 562
-        height: 330
-      alignment: 0
+        x: 601
+        y: 3471
+        width: 484
+        height: 208
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_9
       rect:
         serializedVersion: 2
-        x: 1124
-        y: 3436
-        width: 562
-        height: 330
-      alignment: 0
+        x: 1165
+        y: 3471
+        width: 482
+        height: 206
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_10
       rect:
         serializedVersion: 2
-        x: 1686
-        y: 3436
-        width: 562
-        height: 330
-      alignment: 0
+        x: 1727
+        y: 3472
+        width: 484
+        height: 201
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_11
       rect:
         serializedVersion: 2
-        x: 2248
-        y: 3436
-        width: 562
-        height: 330
-      alignment: 0
+        x: 2291
+        y: 3472
+        width: 484
+        height: 199
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_12
       rect:
         serializedVersion: 2
-        x: 2810
-        y: 3436
-        width: 562
-        height: 330
-      alignment: 0
+        x: 2855
+        y: 3477
+        width: 484
+        height: 190
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_13
       rect:
         serializedVersion: 2
-        x: 3372
-        y: 3436
-        width: 562
-        height: 330
-      alignment: 0
+        x: 3419
+        y: 3481
+        width: 482
+        height: 184
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3106
-        width: 562
-        height: 330
-      alignment: 0
+        x: 19
+        y: 3151
+        width: 484
+        height: 176
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_15
       rect:
         serializedVersion: 2
-        x: 562
-        y: 3106
-        width: 562
-        height: 330
-      alignment: 0
+        x: 583
+        y: 3152
+        width: 484
+        height: 176
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_16
       rect:
         serializedVersion: 2
-        x: 1124
-        y: 3106
-        width: 562
-        height: 330
-      alignment: 0
+        x: 1149
+        y: 3152
+        width: 484
+        height: 173
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_17
       rect:
         serializedVersion: 2
-        x: 1686
-        y: 3106
-        width: 562
-        height: 330
-      alignment: 0
+        x: 1715
+        y: 3155
+        width: 485
+        height: 170
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_18
       rect:
         serializedVersion: 2
-        x: 2248
-        y: 3106
-        width: 562
-        height: 330
-      alignment: 0
+        x: 2281
+        y: 3152
+        width: 484
+        height: 173
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_19
       rect:
         serializedVersion: 2
-        x: 2810
-        y: 3106
-        width: 562
-        height: 330
-      alignment: 0
+        x: 2847
+        y: 3152
+        width: 484
+        height: 176
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_20
       rect:
         serializedVersion: 2
-        x: 3372
-        y: 3106
-        width: 562
-        height: 330
-      alignment: 0
+        x: 3413
+        y: 3152
+        width: 484
+        height: 173
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2776
-        width: 562
-        height: 330
-      alignment: 0
+        x: 17
+        y: 2819
+        width: 487
+        height: 172
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_22
       rect:
         serializedVersion: 2
-        x: 562
-        y: 2776
-        width: 562
-        height: 330
-      alignment: 0
+        x: 583
+        y: 2816
+        width: 484
+        height: 176
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_23
       rect:
         serializedVersion: 2
-        x: 1124
-        y: 2776
-        width: 562
-        height: 330
-      alignment: 0
+        x: 1149
+        y: 2816
+        width: 484
+        height: 176
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_24
       rect:
         serializedVersion: 2
-        x: 1686
-        y: 2776
-        width: 562
-        height: 330
-      alignment: 0
+        x: 1715
+        y: 2819
+        width: 484
+        height: 172
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_25
       rect:
         serializedVersion: 2
-        x: 2248
-        y: 2776
-        width: 562
-        height: 330
-      alignment: 0
+        x: 2280
+        y: 2819
+        width: 485
+        height: 172
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_26
       rect:
         serializedVersion: 2
-        x: 2810
-        y: 2776
-        width: 562
-        height: 330
-      alignment: 0
+        x: 2847
+        y: 2816
+        width: 484
+        height: 176
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_27
       rect:
         serializedVersion: 2
-        x: 3372
-        y: 2776
-        width: 562
-        height: 330
-      alignment: 0
+        x: 3413
+        y: 2816
+        width: 484
+        height: 176
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_28
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2446
-        width: 562
-        height: 330
-      alignment: 0
+        x: 16
+        y: 2485
+        width: 485
+        height: 172
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_29
       rect:
         serializedVersion: 2
-        x: 562
-        y: 2446
-        width: 562
-        height: 330
-      alignment: 0
+        x: 583
+        y: 2485
+        width: 484
+        height: 172
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_30
       rect:
         serializedVersion: 2
-        x: 1124
-        y: 2446
-        width: 562
-        height: 330
-      alignment: 0
+        x: 1149
+        y: 2485
+        width: 484
+        height: 172
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_31
       rect:
         serializedVersion: 2
-        x: 1686
-        y: 2446
-        width: 562
-        height: 330
-      alignment: 0
+        x: 1712
+        y: 2485
+        width: 487
+        height: 172
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_32
       rect:
         serializedVersion: 2
-        x: 2248
-        y: 2446
-        width: 562
-        height: 330
-      alignment: 0
+        x: 2280
+        y: 2485
+        width: 485
+        height: 172
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_33
       rect:
         serializedVersion: 2
-        x: 2810
-        y: 2446
-        width: 562
-        height: 330
-      alignment: 0
+        x: 2847
+        y: 2485
+        width: 484
+        height: 172
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_34
       rect:
         serializedVersion: 2
-        x: 3372
-        y: 2446
-        width: 562
-        height: 330
-      alignment: 0
+        x: 3413
+        y: 2485
+        width: 484
+        height: 172
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rowboat tank death_35
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2116
-        width: 562
-        height: 330
-      alignment: 0
+        x: 17
+        y: 2151
+        width: 484
+        height: 171
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 

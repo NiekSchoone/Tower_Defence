@@ -62,7 +62,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 2048
   textureSettings:
     filterMode: -1
     aniso: 1
@@ -86,171 +86,171 @@ TextureImporter:
     - name: blunder buss pirate walk_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1804
+        x: 1
+        y: 1805
         width: 180
-        height: 244
-      alignment: 0
+        height: 243
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_1
       rect:
         serializedVersion: 2
-        x: 180
-        y: 1804
+        x: 181
+        y: 1805
         width: 180
-        height: 244
-      alignment: 0
+        height: 243
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_2
       rect:
         serializedVersion: 2
-        x: 360
-        y: 1804
-        width: 180
-        height: 244
-      alignment: 0
+        x: 362
+        y: 1805
+        width: 179
+        height: 243
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_3
       rect:
         serializedVersion: 2
-        x: 540
-        y: 1804
-        width: 180
-        height: 244
-      alignment: 0
+        x: 542
+        y: 1806
+        width: 179
+        height: 242
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_4
       rect:
         serializedVersion: 2
-        x: 720
-        y: 1804
-        width: 180
-        height: 244
-      alignment: 0
+        x: 721
+        y: 1806
+        width: 179
+        height: 242
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1560
-        width: 180
-        height: 244
-      alignment: 0
+        x: 1
+        y: 1561
+        width: 178
+        height: 243
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_6
       rect:
         serializedVersion: 2
         x: 180
-        y: 1560
-        width: 180
-        height: 244
-      alignment: 0
+        y: 1562
+        width: 177
+        height: 242
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_7
       rect:
         serializedVersion: 2
-        x: 360
-        y: 1560
-        width: 180
-        height: 244
-      alignment: 0
+        x: 357
+        y: 1562
+        width: 178
+        height: 242
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_8
       rect:
         serializedVersion: 2
-        x: 540
-        y: 1560
-        width: 180
-        height: 244
-      alignment: 0
+        x: 535
+        y: 1562
+        width: 177
+        height: 242
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_9
       rect:
         serializedVersion: 2
-        x: 720
-        y: 1560
-        width: 180
-        height: 244
-      alignment: 0
+        x: 713
+        y: 1562
+        width: 176
+        height: 241
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 1316
-        width: 180
-        height: 244
-      alignment: 0
+        y: 1319
+        width: 177
+        height: 242
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_11
       rect:
         serializedVersion: 2
-        x: 180
-        y: 1316
-        width: 180
-        height: 244
-      alignment: 0
+        x: 178
+        y: 1319
+        width: 177
+        height: 242
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_12
       rect:
         serializedVersion: 2
-        x: 360
-        y: 1316
-        width: 180
-        height: 244
-      alignment: 0
+        x: 355
+        y: 1318
+        width: 178
+        height: 243
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_13
       rect:
         serializedVersion: 2
-        x: 540
-        y: 1316
-        width: 180
-        height: 244
-      alignment: 0
+        x: 534
+        y: 1318
+        width: 178
+        height: 243
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_14
       rect:
         serializedVersion: 2
-        x: 720
-        y: 1316
-        width: 180
+        x: 713
+        y: 1317
+        width: 178
         height: 244
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1072
-        width: 180
+        x: 1
+        y: 1073
+        width: 179
         height: 244
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_16
       rect:
         serializedVersion: 2
-        x: 180
+        x: 181
         y: 1072
-        width: 180
+        width: 179
         height: 244
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_17
@@ -259,229 +259,229 @@ TextureImporter:
         x: 360
         y: 1072
         width: 180
-        height: 244
-      alignment: 0
+        height: 245
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_18
       rect:
         serializedVersion: 2
-        x: 540
+        x: 541
         y: 1072
         width: 180
-        height: 244
-      alignment: 0
+        height: 245
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_19
       rect:
         serializedVersion: 2
-        x: 720
-        y: 1072
-        width: 180
-        height: 244
-      alignment: 0
+        x: 721
+        y: 1070
+        width: 181
+        height: 246
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 828
+        x: 1
+        y: 826
         width: 180
         height: 244
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_21
       rect:
         serializedVersion: 2
-        x: 180
-        y: 828
+        x: 181
+        y: 827
         width: 180
-        height: 244
-      alignment: 0
+        height: 243
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_22
       rect:
         serializedVersion: 2
-        x: 360
-        y: 828
+        x: 361
+        y: 829
         width: 180
-        height: 244
-      alignment: 0
+        height: 240
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_23
       rect:
         serializedVersion: 2
-        x: 540
-        y: 828
-        width: 180
-        height: 244
-      alignment: 0
+        x: 541
+        y: 830
+        width: 179
+        height: 240
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_24
       rect:
         serializedVersion: 2
-        x: 720
-        y: 828
-        width: 180
-        height: 244
-      alignment: 0
+        x: 721
+        y: 830
+        width: 178
+        height: 240
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_25
       rect:
         serializedVersion: 2
-        x: 0
-        y: 584
-        width: 180
-        height: 244
-      alignment: 0
+        x: 1
+        y: 585
+        width: 178
+        height: 240
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_26
       rect:
         serializedVersion: 2
-        x: 180
-        y: 584
-        width: 180
-        height: 244
-      alignment: 0
+        x: 179
+        y: 586
+        width: 178
+        height: 239
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_27
       rect:
         serializedVersion: 2
-        x: 360
-        y: 584
-        width: 180
-        height: 244
-      alignment: 0
+        x: 357
+        y: 586
+        width: 178
+        height: 239
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_28
       rect:
         serializedVersion: 2
-        x: 540
-        y: 584
-        width: 180
-        height: 244
-      alignment: 0
+        x: 535
+        y: 585
+        width: 177
+        height: 240
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_29
       rect:
         serializedVersion: 2
-        x: 720
-        y: 584
-        width: 180
-        height: 244
-      alignment: 0
+        x: 713
+        y: 585
+        width: 176
+        height: 239
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_30
       rect:
         serializedVersion: 2
         x: 0
-        y: 340
-        width: 180
-        height: 244
-      alignment: 0
+        y: 344
+        width: 177
+        height: 240
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_31
       rect:
         serializedVersion: 2
-        x: 180
-        y: 340
-        width: 180
-        height: 244
-      alignment: 0
+        x: 178
+        y: 344
+        width: 177
+        height: 240
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_32
       rect:
         serializedVersion: 2
-        x: 360
-        y: 340
-        width: 180
-        height: 244
-      alignment: 0
+        x: 355
+        y: 344
+        width: 178
+        height: 240
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_33
       rect:
         serializedVersion: 2
-        x: 540
-        y: 340
-        width: 180
-        height: 244
-      alignment: 0
+        x: 534
+        y: 343
+        width: 178
+        height: 241
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_34
       rect:
         serializedVersion: 2
-        x: 720
-        y: 340
-        width: 180
-        height: 244
-      alignment: 0
+        x: 713
+        y: 343
+        width: 178
+        height: 241
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_35
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 180
-        height: 244
-      alignment: 0
+        x: 1
+        y: 101
+        width: 179
+        height: 241
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_36
       rect:
         serializedVersion: 2
-        x: 180
-        y: 96
-        width: 180
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 181
+        y: 99
+        width: 179
+        height: 243
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_37
       rect:
         serializedVersion: 2
-        x: 360
-        y: 96
+        x: 541
+        y: 99
         width: 180
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 243
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_38
       rect:
         serializedVersion: 2
-        x: 540
-        y: 96
-        width: 180
-        height: 244
-      alignment: 0
+        x: 721
+        y: 98
+        width: 181
+        height: 243
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate walk_39
       rect:
         serializedVersion: 2
-        x: 720
-        y: 96
+        x: 360
+        y: 98
         width: 180
         height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -25,7 +25,7 @@ public class TowerClass : MonoBehaviour
 
 	protected float fireRate;
 
-	protected float coolDown = 3;
+	protected float coolDown = 3f;
 
 	protected float projectileSpeed;
 
@@ -34,8 +34,14 @@ public class TowerClass : MonoBehaviour
 
 	protected Vector2 origin;
 
+	public RadiusIndicator radiusIndication;
+
 	[SerializeField]
 	protected Sprite[] upgradeSprites;
+	public bool towerLevel1 = true;
+	public bool towerLevel2 = false;
+	public bool towerLevel3 = false;
+	public int towerLevel = 0;
 
 	protected SpriteRenderer towerSpriteRenderer;
 
@@ -46,11 +52,14 @@ public class TowerClass : MonoBehaviour
 		this.enabled = false;
 		shootAnim.GetComponentInChildren<Animator>();
 		towerSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
+		radiusIndication = GetComponent<RadiusIndicator>();
 	}
 
 	protected virtual void Update()
 	{
 		EnemiesEnter();
+
+		radiusIndication.indicatedRadius = radius;
 
 		if(enemyTargetingArray.Length > 0)
 		{
@@ -86,7 +95,22 @@ public class TowerClass : MonoBehaviour
 
 	public void UpgradeTower()
 	{
-		towerSpriteRenderer.sprite = upgradeSprites[1];
+		if(towerLevel2 == true)
+		{
+			towerLevel = 1;
+			coolDown -= 0.1f;
+			projectileSpeed += 10;
+			radius += 0.1f;
+
+		}else if(towerLevel3 == true)
+		{
+			towerLevel = 2;
+			coolDown -= 0.1f;
+			projectileSpeed += 10;
+			radius += 0.1f;
+		}
+		Debug.Log (towerLevel);
+		towerSpriteRenderer.sprite = upgradeSprites[towerLevel];
 	}
 
 	protected virtual void AttackEnemy()

@@ -113,7 +113,7 @@ TextureImporter:
         y: 3837
         width: 184
         height: 251
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_2
@@ -123,7 +123,7 @@ TextureImporter:
         y: 3831
         width: 184
         height: 250
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_3
@@ -133,7 +133,7 @@ TextureImporter:
         y: 3825
         width: 187
         height: 252
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_4
@@ -143,7 +143,7 @@ TextureImporter:
         y: 3819
         width: 187
         height: 254
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_5
@@ -153,7 +153,7 @@ TextureImporter:
         y: 3813
         width: 184
         height: 256
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_6
@@ -163,7 +163,7 @@ TextureImporter:
         y: 3808
         width: 184
         height: 257
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_7
@@ -173,7 +173,7 @@ TextureImporter:
         y: 3811
         width: 185
         height: 250
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_8
@@ -183,7 +183,7 @@ TextureImporter:
         y: 3445
         width: 187
         height: 246
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_9
@@ -193,7 +193,7 @@ TextureImporter:
         y: 3447
         width: 188
         height: 241
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_10
@@ -203,7 +203,7 @@ TextureImporter:
         y: 3447
         width: 190
         height: 238
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_11
@@ -213,7 +213,7 @@ TextureImporter:
         y: 3451
         width: 190
         height: 230
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_12
@@ -223,7 +223,7 @@ TextureImporter:
         y: 3457
         width: 194
         height: 220
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_13
@@ -233,7 +233,7 @@ TextureImporter:
         y: 3461
         width: 201
         height: 212
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_14
@@ -243,7 +243,7 @@ TextureImporter:
         y: 3467
         width: 202
         height: 205
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_15
@@ -253,7 +253,7 @@ TextureImporter:
         y: 3469
         width: 206
         height: 196
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_16
@@ -263,7 +263,7 @@ TextureImporter:
         y: 3103
         width: 209
         height: 198
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_17
@@ -273,7 +273,7 @@ TextureImporter:
         y: 3103
         width: 206
         height: 201
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_18
@@ -283,7 +283,7 @@ TextureImporter:
         y: 3103
         width: 208
         height: 198
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_19
@@ -293,7 +293,7 @@ TextureImporter:
         y: 3103
         width: 208
         height: 200
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_20
@@ -303,7 +303,7 @@ TextureImporter:
         y: 3103
         width: 208
         height: 200
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_21
@@ -313,7 +313,7 @@ TextureImporter:
         y: 3103
         width: 210
         height: 200
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_22
@@ -323,7 +323,7 @@ TextureImporter:
         y: 3103
         width: 210
         height: 198
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_23
@@ -333,7 +333,7 @@ TextureImporter:
         y: 3103
         width: 212
         height: 196
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_24
@@ -343,7 +343,7 @@ TextureImporter:
         y: 2739
         width: 214
         height: 194
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_25
@@ -353,7 +353,7 @@ TextureImporter:
         y: 2739
         width: 216
         height: 192
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_26
@@ -363,7 +363,7 @@ TextureImporter:
         y: 2736
         width: 216
         height: 195
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_27
@@ -373,7 +373,7 @@ TextureImporter:
         y: 2736
         width: 219
         height: 193
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_28
@@ -383,7 +383,7 @@ TextureImporter:
         y: 2739
         width: 218
         height: 188
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_29
@@ -393,7 +393,7 @@ TextureImporter:
         y: 2739
         width: 218
         height: 186
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_30
@@ -403,7 +403,7 @@ TextureImporter:
         y: 2739
         width: 220
         height: 184
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_31
@@ -413,7 +413,7 @@ TextureImporter:
         y: 2739
         width: 222
         height: 182
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_32
@@ -423,7 +423,7 @@ TextureImporter:
         y: 2373
         width: 224
         height: 182
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_33
@@ -433,7 +433,7 @@ TextureImporter:
         y: 2373
         width: 225
         height: 180
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_34
@@ -443,7 +443,7 @@ TextureImporter:
         y: 2373
         width: 226
         height: 178
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_35
@@ -453,7 +453,7 @@ TextureImporter:
         y: 2373
         width: 228
         height: 179
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_36
@@ -463,7 +463,7 @@ TextureImporter:
         y: 2375
         width: 231
         height: 172
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_37
@@ -473,7 +473,7 @@ TextureImporter:
         y: 2375
         width: 226
         height: 166
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_38
@@ -483,7 +483,7 @@ TextureImporter:
         y: 2373
         width: 224
         height: 162
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_39
@@ -493,7 +493,7 @@ TextureImporter:
         y: 2359
         width: 220
         height: 170
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_40
@@ -503,7 +503,7 @@ TextureImporter:
         y: 1983
         width: 218
         height: 176
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_41
@@ -513,7 +513,7 @@ TextureImporter:
         y: 1971
         width: 212
         height: 180
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_42
@@ -523,7 +523,7 @@ TextureImporter:
         y: 1961
         width: 218
         height: 184
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_43
@@ -533,7 +533,7 @@ TextureImporter:
         y: 1951
         width: 226
         height: 188
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_44
@@ -543,7 +543,7 @@ TextureImporter:
         y: 1941
         width: 234
         height: 186
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_45
@@ -553,7 +553,7 @@ TextureImporter:
         y: 1935
         width: 241
         height: 186
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_46
@@ -563,7 +563,7 @@ TextureImporter:
         y: 1933
         width: 250
         height: 182
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_47
@@ -573,7 +573,7 @@ TextureImporter:
         y: 1929
         width: 258
         height: 180
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_48
@@ -583,7 +583,7 @@ TextureImporter:
         y: 1563
         width: 264
         height: 176
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_49
@@ -593,7 +593,7 @@ TextureImporter:
         y: 1563
         width: 269
         height: 176
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_50
@@ -603,7 +603,7 @@ TextureImporter:
         y: 1563
         width: 266
         height: 181
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_51
@@ -613,7 +613,7 @@ TextureImporter:
         y: 1563
         width: 266
         height: 176
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_52
@@ -623,7 +623,7 @@ TextureImporter:
         y: 1563
         width: 266
         height: 181
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_53
@@ -633,7 +633,7 @@ TextureImporter:
         y: 1563
         width: 266
         height: 176
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_54
@@ -643,7 +643,7 @@ TextureImporter:
         y: 1563
         width: 266
         height: 176
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_55
@@ -653,7 +653,7 @@ TextureImporter:
         y: 1563
         width: 266
         height: 176
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_56
@@ -663,7 +663,7 @@ TextureImporter:
         y: 1197
         width: 266
         height: 176
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_57
@@ -673,7 +673,7 @@ TextureImporter:
         y: 1197
         width: 266
         height: 176
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_58
@@ -683,7 +683,7 @@ TextureImporter:
         y: 1197
         width: 265
         height: 176
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: blunder buss pirate death_59
@@ -693,7 +693,7 @@ TextureImporter:
         y: 1198
         width: 264
         height: 175
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 

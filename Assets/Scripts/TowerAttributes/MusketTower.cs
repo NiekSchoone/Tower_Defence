@@ -14,13 +14,14 @@ public class MusketTower : TowerClass
 		fireRate = 0.75f;
 		projectileSpeed = 240;
 		towerPrice = 100;
+		radius = 1.4f;
 		base.Awake();
 	}
 
 	protected override void Update () 
 	{		
-		radius = 1.4f;
 		base.Update();
+		Debug.Log (radius);
 	}
 
 	protected override void TargetEnemy()

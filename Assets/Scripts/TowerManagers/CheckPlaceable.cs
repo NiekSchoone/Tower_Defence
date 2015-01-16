@@ -42,8 +42,21 @@ public class CheckPlaceable : MonoBehaviour
 	{
 		if(selectedIsExisting)
 		{
+			if(getUpgrade.towerLevel3 == true)
+			{
+				GUI.enabled = false;
+			}
 			if(GUI.Button(new Rect(Screen.width / 2, Screen.height / 1.15f, 40,40), upgradeTexture))
 			{
+				if(getUpgrade.towerLevel2 == false)
+				{
+					getUpgrade.towerLevel2 = true;
+					getUpgrade.towerLevel1 = false;
+				}else if(getUpgrade.towerLevel2 == true)
+				{
+					getUpgrade.towerLevel3 = true;
+					getUpgrade.towerLevel2 = false;
+				}
 				getUpgrade.UpgradeTower();
 			}
 		}

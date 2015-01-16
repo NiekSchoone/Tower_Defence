@@ -7,7 +7,9 @@ public class Enemy : MonoBehaviour {
 	
 	protected float enemyHealth;
 	public float fortressDamaging;
+	[SerializeField]
 	protected float speed;
+	protected int goldValue;
 	protected ProjectileClass projectileClass;
 
 	//Making a list for all the waypoints.
@@ -50,7 +52,6 @@ public class Enemy : MonoBehaviour {
 			anim.SetBool("IsDead", true);
 			speed -= speed;
 			gameObject.layer = 0;
-			collider.enabled = false;
 		}
 	}
 	public void Destroy(){
@@ -61,7 +62,7 @@ public class Enemy : MonoBehaviour {
 	public void KillEnemy()
 	{
 		Destroy(gameObject);
-		Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin += 10;
+		Camera.main.gameObject.GetComponent<GoldScript>().playerOwnedCoin += goldValue;
 	}
 
 }

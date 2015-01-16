@@ -16,8 +16,12 @@ public class RadiusIndicator : MonoBehaviour
 	// Use this for initialization
 	public virtual void Start()
 	{
-		radiusIndicator.transform.localScale = new Vector3(indicatedRadius,indicatedRadius,1);
 		getRadiusIndicator();
+	}
+
+	public void Update()
+	{
+		radiusIndicator.transform.localScale = new Vector3(indicatedRadius,indicatedRadius,1);
 	}
 	
 	public void getRadiusIndicator()

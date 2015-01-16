@@ -1,7 +1,84 @@
 fileFormatVersion: 2
 guid: d5cb52da2f253a84baf7f93ccdd6f68e
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: mexican pirate death_1
+    21300002: mexican pirate death_2
+    21300004: mexican pirate death_3
+    21300006: mexican pirate death_4
+    21300008: mexican pirate death_5
+    21300010: mexican pirate death_6
+    21300012: mexican pirate death_7
+    21300014: mexican pirate death_8
+    21300016: mexican pirate death_9
+    21300018: mexican pirate death_10
+    21300020: mexican pirate death_11
+    21300022: mexican pirate death_12
+    21300024: mexican pirate death_13
+    21300026: mexican pirate death_14
+    21300028: mexican pirate death_15
+    21300030: mexican pirate death_16
+    21300032: mexican pirate death_17
+    21300034: mexican pirate death_18
+    21300036: mexican pirate death_19
+    21300038: mexican pirate death_20
+    21300040: mexican pirate death_21
+    21300042: mexican pirate death_22
+    21300044: mexican pirate death_23
+    21300046: mexican pirate death_24
+    21300048: mexican pirate death_25
+    21300050: mexican pirate death_26
+    21300052: mexican pirate death_27
+    21300054: mexican pirate death_28
+    21300056: mexican pirate death_29
+    21300058: mexican pirate death_30
+    21300060: mexican pirate death_31
+    21300062: mexican pirate death_32
+    21300064: mexican pirate death_33
+    21300066: mexican pirate death_34
+    21300068: mexican pirate death_35
+    21300070: mexican pirate death_36
+    21300072: mexican pirate death_37
+    21300074: mexican pirate death_38
+    21300076: mexican pirate death_39
+    21300078: mexican pirate death_40
+    21300080: mexican pirate death_41
+    21300082: mexican pirate death_42
+    21300084: mexican pirate death_43
+    21300086: mexican pirate death_44
+    21300088: mexican pirate death_45
+    21300090: mexican pirate death_46
+    21300092: mexican pirate death_47
+    21300094: mexican pirate death_48
+    21300096: mexican pirate death_49
+    21300098: mexican pirate death_50
+    21300100: mexican pirate death_51
+    21300102: mexican pirate death_52
+    21300104: mexican pirate death_53
+    21300106: mexican pirate death_54
+    21300108: mexican pirate death_55
+    21300110: mexican pirate death_56
+    21300112: mexican pirate death_57
+    21300114: mexican pirate death_58
+    21300116: mexican pirate death_59
+    21300118: mexican pirate death_60
+    21300120: mexican pirate death_61
+    21300122: mexican pirate death_62
+    21300124: mexican pirate death_63
+    21300126: mexican pirate death_64
+    21300128: mexican pirate death_65
+    21300130: mexican pirate death_66
+    21300132: mexican pirate death_67
+    21300134: mexican pirate death_68
+    21300136: mexican pirate death_69
+    21300138: mexican pirate death_70
+    21300140: mexican pirate death_71
+    21300142: mexican pirate death_72
+    21300144: mexican pirate death_73
+    21300146: mexican pirate death_74
+    21300148: mexican pirate death_75
+    21300150: mexican pirate death_76
+    21300152: mexican pirate death_77
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -22,7 +99,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 2048
   textureSettings:
     filterMode: -1
     aniso: -1
@@ -31,7 +108,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -46,6 +123,776 @@ TextureImporter:
     textureFormat: -2
     compressionQuality: 50
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: mexican pirate death_1
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 3803
+        width: 263
+        height: 260
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_2
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 3803
+        width: 262
+        height: 252
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_3
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 3803
+        width: 270
+        height: 240
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_4
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 3803
+        width: 280
+        height: 229
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_5
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 3803
+        width: 288
+        height: 224
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_6
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 3803
+        width: 296
+        height: 224
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 3463
+        width: 304
+        height: 222
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_8
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 3463
+        width: 306
+        height: 222
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_9
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 3463
+        width: 310
+        height: 222
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_10
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 3463
+        width: 306
+        height: 222
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_11
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 3463
+        width: 308
+        height: 222
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_12
+      rect:
+        serializedVersion: 2
+        x: 2953
+        y: 3463
+        width: 306
+        height: 222
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_13
+      rect:
+        serializedVersion: 2
+        x: 3533
+        y: 3463
+        width: 308
+        height: 222
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_14
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 3121
+        width: 308
+        height: 224
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_15
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 3120
+        width: 306
+        height: 225
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_16
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 3121
+        width: 308
+        height: 224
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_17
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 3120
+        width: 306
+        height: 225
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_18
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 3121
+        width: 308
+        height: 224
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_19
+      rect:
+        serializedVersion: 2
+        x: 2953
+        y: 3121
+        width: 306
+        height: 224
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_20
+      rect:
+        serializedVersion: 2
+        x: 3533
+        y: 3120
+        width: 308
+        height: 225
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2781
+        width: 311
+        height: 222
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_22
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 2781
+        width: 312
+        height: 220
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_23
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2781
+        width: 314
+        height: 220
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_24
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 2781
+        width: 318
+        height: 220
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_25
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 2779
+        width: 318
+        height: 221
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_26
+      rect:
+        serializedVersion: 2
+        x: 2963
+        y: 2779
+        width: 320
+        height: 220
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_27
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 2779
+        width: 323
+        height: 222
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_28
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2439
+        width: 322
+        height: 220
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_29
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 2437
+        width: 324
+        height: 224
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_30
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 2437
+        width: 326
+        height: 224
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_31
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 2437
+        width: 326
+        height: 226
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_32
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 2437
+        width: 326
+        height: 228
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_33
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 2437
+        width: 328
+        height: 228
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_34
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 2437
+        width: 326
+        height: 228
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_35
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 2095
+        width: 329
+        height: 228
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_36
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 2095
+        width: 323
+        height: 228
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_37
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 2095
+        width: 320
+        height: 228
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_38
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 2095
+        width: 320
+        height: 226
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_39
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 2095
+        width: 319
+        height: 226
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_40
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 2095
+        width: 314
+        height: 224
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_41
+      rect:
+        serializedVersion: 2
+        x: 3605
+        y: 2095
+        width: 312
+        height: 224
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_42
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1752
+        width: 308
+        height: 225
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_43
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1753
+        width: 306
+        height: 222
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_44
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1753
+        width: 303
+        height: 222
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_45
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1753
+        width: 300
+        height: 220
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_46
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 1752
+        width: 280
+        height: 225
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_47
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 1753
+        width: 274
+        height: 240
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_48
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 1753
+        width: 278
+        height: 252
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_49
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1413
+        width: 285
+        height: 262
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_50
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1413
+        width: 288
+        height: 267
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_51
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1413
+        width: 290
+        height: 270
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_52
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1413
+        width: 290
+        height: 268
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_53
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1408
+        width: 293
+        height: 267
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_54
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 1413
+        width: 296
+        height: 254
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_55
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 1413
+        width: 305
+        height: 246
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_56
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1073
+        width: 305
+        height: 239
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_57
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1075
+        width: 304
+        height: 226
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_58
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1075
+        width: 305
+        height: 218
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_59
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 1075
+        width: 302
+        height: 210
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_60
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 1073
+        width: 305
+        height: 207
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_61
+      rect:
+        serializedVersion: 2
+        x: 3143
+        y: 1059
+        width: 305
+        height: 218
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_62
+      rect:
+        serializedVersion: 2
+        x: 3733
+        y: 1047
+        width: 302
+        height: 214
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_63
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 693
+        width: 303
+        height: 200
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_64
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 688
+        width: 302
+        height: 176
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_65
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 691
+        width: 307
+        height: 133
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_66
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 691
+        width: 310
+        height: 118
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_67
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 691
+        width: 311
+        height: 120
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_68
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 691
+        width: 310
+        height: 120
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_69
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 691
+        width: 313
+        height: 120
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_70
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 350
+        width: 312
+        height: 119
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_71
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 350
+        width: 310
+        height: 119
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_72
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 350
+        width: 315
+        height: 122
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_73
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 350
+        width: 310
+        height: 119
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_74
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 350
+        width: 313
+        height: 122
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_75
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 351
+        width: 310
+        height: 118
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_76
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 351
+        width: 311
+        height: 118
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate death_77
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 9
+        width: 310
+        height: 119
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
