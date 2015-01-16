@@ -23,14 +23,17 @@ public class Wave01 : MonoBehaviour {
 		yield return new WaitForSeconds (_TimeNextWave);
 		if(_WaveCount == 5)
 		{
+			_TimeNextWave = 15;
 			enemies.Add(newEnemy[0]);
 		}
 		if(_WaveCount == 10)
 		{
+			_TimeNextWave = 20;
 			enemies.Add(newEnemy[1]);
 		}
 		if(_WaveCount == 15)
 		{
+			_TimeNextWave = 25;
 			enemies.Add(newEnemy[2]);
 		}
 		Wave ();

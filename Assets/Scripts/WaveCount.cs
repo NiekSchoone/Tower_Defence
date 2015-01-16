@@ -18,6 +18,6 @@ public class WaveCount : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		_wavecounter = EnemieSpawner.gameObject.GetComponent<Wave01>()._WaveCount;
-		_wave.text =_wavecounter.ToString();
+		_wave.text = "Wave: " + _wavecounter.ToString();
 	}
 }

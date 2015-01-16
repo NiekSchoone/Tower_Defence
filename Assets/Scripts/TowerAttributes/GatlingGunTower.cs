@@ -12,7 +12,7 @@ public class GatlingGunTower : TowerClass
 	{
 		fireRate = 0.3f;
 		projectileSpeed = 200;
-		towerPrice = 2000;
+		towerPrice = 1000;
 		base.Awake();
 	}
 

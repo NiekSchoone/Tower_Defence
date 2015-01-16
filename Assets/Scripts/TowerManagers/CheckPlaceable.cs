@@ -17,13 +17,9 @@ public class CheckPlaceable : MonoBehaviour
 
 	public TowerClass getUpgrade;
 
-	private GoldScript gold;
-
 	void Start()
 	{
 		getUpgrade = GetComponent<TowerClass>();
-		gold = GetComponent<GoldScript>();
-
 	}
 
 	void OnTriggerEnter2D(Collider2D col)

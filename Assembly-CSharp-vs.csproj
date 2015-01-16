@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\QuitButton.cs" />
      <Compile Include="Assets\Scripts\Enemy&apos;s\CoinGUI.cs" />
      <Compile Include="Assets\Scripts\Enemy&apos;s\Damage.cs" />
      <Compile Include="Assets\Scripts\Enemy&apos;s\Enemies.cs" />
@@ -66,6 +65,8 @@
      <Compile Include="Assets\Scripts\ProjectileAttributes\CannonBall.cs" />
      <Compile Include="Assets\Scripts\ProjectileAttributes\MusketShot.cs" />
      <Compile Include="Assets\Scripts\ProjectileAttributes\ProjectileClass.cs" />
+     <Compile Include="Assets\Scripts\QuitButton.cs" />
+     <Compile Include="Assets\Scripts\StartButton.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\CannonTower.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\GatlingGunTower.cs" />
      <Compile Include="Assets\Scripts\TowerAttributes\MusketTower.cs" />
@@ -74,12 +75,11 @@
      <Compile Include="Assets\Scripts\TowerManagers\CheckPlaceable.cs" />
      <Compile Include="Assets\Scripts\TowerManagers\TowerGUI.cs" />
      <Compile Include="Assets\Scripts\TowerManagers\TowerPlacement.cs" />
+     <Compile Include="Assets\Scripts\WaveCount.cs" />
      <Compile Include="Assets\Scripts\WaveSystem\WaveSystemTest01\LevelData.cs" />
      <Compile Include="Assets\Scripts\WaveSystem\WaveSystemTest01\MobWave.cs" />
      <Compile Include="Assets\Scripts\WaveSystem\WaveSystemTest02\Wave01.cs" />
      <Compile Include="Assets\Scripts\WaveSystem\WaveSystemTest02\Wave02.cs" />
-     <Compile Include="Assets\StartButton.cs" />
-     <Compile Include="Assets\WaveCount.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
