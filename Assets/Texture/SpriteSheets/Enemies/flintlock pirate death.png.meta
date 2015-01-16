@@ -1,7 +1,36 @@
 fileFormatVersion: 2
 guid: 6811ca9a400fdab4d8cf0d0bc39b8700
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: flintlock pirate death_1
+    21300002: flintlock pirate death_2
+    21300004: flintlock pirate death_3
+    21300006: flintlock pirate death_4
+    21300008: flintlock pirate death_5
+    21300010: flintlock pirate death_6
+    21300012: flintlock pirate death_7
+    21300014: flintlock pirate death_8
+    21300016: flintlock pirate death_9
+    21300018: flintlock pirate death_10
+    21300020: flintlock pirate death_11
+    21300022: flintlock pirate death_12
+    21300024: flintlock pirate death_13
+    21300026: flintlock pirate death_14
+    21300028: flintlock pirate death_15
+    21300030: flintlock pirate death_16
+    21300032: flintlock pirate death_17
+    21300034: flintlock pirate death_18
+    21300036: flintlock pirate death_19
+    21300038: flintlock pirate death_20
+    21300040: flintlock pirate death_21
+    21300042: flintlock pirate death_22
+    21300044: flintlock pirate death_23
+    21300046: flintlock pirate death_24
+    21300048: flintlock pirate death_25
+    21300050: flintlock pirate death_26
+    21300052: flintlock pirate death_27
+    21300054: flintlock pirate death_28
+    21300056: flintlock pirate death_29
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -22,7 +51,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 2048
   textureSettings:
     filterMode: -1
     aniso: -1
@@ -31,7 +60,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -46,6 +75,296 @@ TextureImporter:
     textureFormat: -2
     compressionQuality: 50
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: flintlock pirate death_1
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1847
+        width: 79
+        height: 183
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_2
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1843
+        width: 75
+        height: 185
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_3
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1837
+        width: 79
+        height: 188
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_4
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1833
+        width: 83
+        height: 190
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1596
+        width: 89
+        height: 191
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_6
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1594
+        width: 92
+        height: 191
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1593
+        width: 93
+        height: 190
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_8
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1592
+        width: 94
+        height: 188
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_9
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1593
+        width: 94
+        height: 185
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1361
+        width: 95
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1364
+        width: 93
+        height: 175
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_12
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1367
+        width: 96
+        height: 169
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_13
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1367
+        width: 99
+        height: 167
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_14
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1364
+        width: 106
+        height: 167
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1127
+        width: 112
+        height: 169
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_16
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1125
+        width: 110
+        height: 171
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_17
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1123
+        width: 108
+        height: 169
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_18
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1121
+        width: 106
+        height: 168
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_19
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1121
+        width: 105
+        height: 168
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 888
+        width: 105
+        height: 168
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_21
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 888
+        width: 105
+        height: 168
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_22
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 888
+        width: 105
+        height: 168
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_23
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 888
+        width: 105
+        height: 168
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_24
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 888
+        width: 105
+        height: 168
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_25
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 655
+        width: 105
+        height: 169
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_26
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 655
+        width: 105
+        height: 168
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_27
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 655
+        width: 105
+        height: 168
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_28
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 655
+        width: 105
+        height: 168
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flintlock pirate death_29
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 655
+        width: 105
+        height: 168
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

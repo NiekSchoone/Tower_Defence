@@ -1,7 +1,47 @@
 fileFormatVersion: 2
 guid: df97662ee19775c43a29220d45e5f300
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: mexican pirate walk_1
+    21300002: mexican pirate walk_2
+    21300004: mexican pirate walk_3
+    21300006: mexican pirate walk_4
+    21300008: mexican pirate walk_5
+    21300010: mexican pirate walk_6
+    21300012: mexican pirate walk_7
+    21300014: mexican pirate walk_8
+    21300016: mexican pirate walk_9
+    21300018: mexican pirate walk_10
+    21300020: mexican pirate walk_11
+    21300022: mexican pirate walk_12
+    21300024: mexican pirate walk_13
+    21300026: mexican pirate walk_14
+    21300028: mexican pirate walk_15
+    21300030: mexican pirate walk_16
+    21300032: mexican pirate walk_17
+    21300034: mexican pirate walk_18
+    21300036: mexican pirate walk_19
+    21300038: mexican pirate walk_20
+    21300040: mexican pirate walk_21
+    21300042: mexican pirate walk_22
+    21300044: mexican pirate walk_23
+    21300046: mexican pirate walk_24
+    21300048: mexican pirate walk_25
+    21300050: mexican pirate walk_26
+    21300052: mexican pirate walk_27
+    21300054: mexican pirate walk_28
+    21300056: mexican pirate walk_29
+    21300058: mexican pirate walk_30
+    21300060: mexican pirate walk_31
+    21300062: mexican pirate walk_32
+    21300064: mexican pirate walk_33
+    21300066: mexican pirate walk_34
+    21300068: mexican pirate walk_35
+    21300070: mexican pirate walk_36
+    21300072: mexican pirate walk_37
+    21300074: mexican pirate walk_38
+    21300076: mexican pirate walk_39
+    21300078: mexican pirate walk_40
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -22,7 +62,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 2048
   textureSettings:
     filterMode: -1
     aniso: -1
@@ -31,7 +71,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -46,6 +86,406 @@ TextureImporter:
     textureFormat: -2
     compressionQuality: 50
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: mexican pirate walk_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1779
+        width: 246
+        height: 257
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_2
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1779
+        width: 244
+        height: 256
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_3
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1779
+        width: 243
+        height: 256
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_4
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1779
+        width: 241
+        height: 255
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_5
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1779
+        width: 241
+        height: 255
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_6
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1779
+        width: 239
+        height: 254
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_7
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1505
+        width: 238
+        height: 253
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1505
+        width: 237
+        height: 253
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_9
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1505
+        width: 239
+        height: 252
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_10
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1505
+        width: 237
+        height: 252
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_11
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1505
+        width: 238
+        height: 252
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_12
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1505
+        width: 238
+        height: 253
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_13
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1505
+        width: 238
+        height: 253
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1230
+        width: 239
+        height: 253
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_15
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1230
+        width: 241
+        height: 254
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_16
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1230
+        width: 242
+        height: 254
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_17
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1230
+        width: 244
+        height: 255
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_18
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1230
+        width: 243
+        height: 255
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_19
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1230
+        width: 244
+        height: 255
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_20
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1231
+        width: 246
+        height: 255
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 956
+        width: 244
+        height: 254
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_22
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 957
+        width: 243
+        height: 253
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_23
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 956
+        width: 242
+        height: 253
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_24
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 956
+        width: 242
+        height: 253
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_25
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 956
+        width: 240
+        height: 253
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_26
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 956
+        width: 239
+        height: 252
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_27
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 956
+        width: 238
+        height: 252
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_28
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 681
+        width: 237
+        height: 252
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_29
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 681
+        width: 238
+        height: 251
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_30
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 681
+        width: 237
+        height: 251
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_31
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 681
+        width: 238
+        height: 251
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_32
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 681
+        width: 238
+        height: 252
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_33
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 680
+        width: 238
+        height: 253
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_34
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 680
+        width: 239
+        height: 253
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_35
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 405
+        width: 241
+        height: 254
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_36
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 405
+        width: 242
+        height: 254
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_37
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 405
+        width: 243
+        height: 255
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_38
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 405
+        width: 243
+        height: 255
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_39
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 404
+        width: 244
+        height: 256
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mexican pirate walk_40
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 404
+        width: 246
+        height: 257
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

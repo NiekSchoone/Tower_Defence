@@ -1,7 +1,38 @@
 fileFormatVersion: 2
 guid: 0b9c8a0973fe779419142b7c6bc8fb4e
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: rapier pirate death_1
+    21300002: rapier pirate death_2
+    21300004: rapier pirate death_3
+    21300006: rapier pirate death_4
+    21300008: rapier pirate death_5
+    21300010: rapier pirate death_6
+    21300012: rapier pirate death_7
+    21300014: rapier pirate death_8
+    21300016: rapier pirate death_9
+    21300018: rapier pirate death_10
+    21300020: rapier pirate death_11
+    21300022: rapier pirate death_12
+    21300024: rapier pirate death_13
+    21300026: rapier pirate death_14
+    21300028: rapier pirate death_15
+    21300030: rapier pirate death_16
+    21300032: rapier pirate death_17
+    21300034: rapier pirate death_18
+    21300036: rapier pirate death_19
+    21300038: rapier pirate death_20
+    21300040: rapier pirate death_21
+    21300042: rapier pirate death_22
+    21300044: rapier pirate death_23
+    21300046: rapier pirate death_24
+    21300048: rapier pirate death_25
+    21300050: rapier pirate death_26
+    21300052: rapier pirate death_27
+    21300054: rapier pirate death_28
+    21300056: rapier pirate death_29
+    21300058: rapier pirate death_30
+    21300060: rapier pirate death_31
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -22,7 +53,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 2048
   textureSettings:
     filterMode: -1
     aniso: -1
@@ -31,7 +62,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -46,6 +77,316 @@ TextureImporter:
     textureFormat: -2
     compressionQuality: 50
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: rapier pirate death_1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1847
+        width: 109
+        height: 182
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_2
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1842
+        width: 112
+        height: 184
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_3
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1836
+        width: 115
+        height: 188
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1604
+        width: 115
+        height: 191
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1601
+        width: 117
+        height: 191
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_6
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1599
+        width: 119
+        height: 190
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_7
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1599
+        width: 122
+        height: 187
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1372
+        width: 125
+        height: 185
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_9
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1373
+        width: 127
+        height: 181
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_10
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1375
+        width: 129
+        height: 176
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_11
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1377
+        width: 133
+        height: 171
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1152
+        width: 137
+        height: 167
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1158
+        width: 140
+        height: 159
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1163
+        width: 142
+        height: 151
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_15
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1167
+        width: 144
+        height: 144
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 941
+        width: 143
+        height: 143
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_17
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 940
+        width: 142
+        height: 143
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_18
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 940
+        width: 140
+        height: 142
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_19
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 941
+        width: 138
+        height: 141
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 715
+        width: 135
+        height: 140
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_21
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 715
+        width: 136
+        height: 139
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_22
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 715
+        width: 135
+        height: 139
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_23
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 715
+        width: 135
+        height: 140
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 489
+        width: 135
+        height: 140
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_25
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 488
+        width: 136
+        height: 141
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_26
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 488
+        width: 135
+        height: 141
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_27
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 488
+        width: 135
+        height: 140
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 263
+        width: 135
+        height: 139
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_29
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 263
+        width: 135
+        height: 139
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_30
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 263
+        width: 135
+        height: 139
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rapier pirate death_31
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 263
+        width: 135
+        height: 139
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

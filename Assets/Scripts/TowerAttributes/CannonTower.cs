@@ -34,7 +34,7 @@ public class CannonTower : TowerClass
 		{
 			audio.PlayOneShot(shootSound);
 		}
-		shootAnim.speed = fireRate / 2;
+		shootAnim.speed = fireRate / 4;
 
 	}
 }
