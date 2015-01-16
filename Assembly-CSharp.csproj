@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\QuitButton.cs" />
      <Compile Include="Assets\Scripts\Enemy&apos;s\CoinGUI.cs" />
      <Compile Include="Assets\Scripts\Enemy&apos;s\Damage.cs" />
      <Compile Include="Assets\Scripts\Enemy&apos;s\Enemies.cs" />
@@ -77,6 +78,8 @@
      <Compile Include="Assets\Scripts\WaveSystem\WaveSystemTest01\MobWave.cs" />
      <Compile Include="Assets\Scripts\WaveSystem\WaveSystemTest02\Wave01.cs" />
      <Compile Include="Assets\Scripts\WaveSystem\WaveSystemTest02\Wave02.cs" />
+     <Compile Include="Assets\StartButton.cs" />
+     <Compile Include="Assets\WaveCount.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

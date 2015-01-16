@@ -16,7 +16,7 @@ public class Damage : MonoBehaviour {
 			_fortressHealth = _fortressHealth - DamageFort;
 			can.GetComponent<HealthBar>().UpdateHealth(_fortressHealth);
 			if(_fortressHealth <= 0){
-				Destroy(gameObject);
+				Application.LoadLevel("Menu");
 			}
 		}
 	}

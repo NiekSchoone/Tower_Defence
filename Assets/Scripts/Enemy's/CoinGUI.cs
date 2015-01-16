@@ -4,9 +4,9 @@ using UnityEngine.UI;
 
 public class CoinGUI : MonoBehaviour {
 
-	private int coinCounter;
+	private int _coinCounter;
 	[SerializeField]
-	private Text Counter;
+	private Text _Counter;
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +15,7 @@ public class CoinGUI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		coinCounter = Camera.main.gameObject.GetComponent<GoldScript> ().playerOwnedCoin;
-		Counter.text = coinCounter.ToString();
+		_coinCounter = Camera.main.gameObject.GetComponent<GoldScript> ().playerOwnedCoin;
+		_Counter.text = _coinCounter.ToString();
 	}
 }
